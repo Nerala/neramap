@@ -1214,6 +1214,17 @@ const MAP_VIEWS = {
   },
 };
 
+// ═══════════════════════════════════════════════════════════════
+//  MOBILE DETECTION AND HELPERS
+// ═══════════════════════════════════════════════════════════════
+function isMobileScreen() {
+  return window.innerWidth <= 768;
+}
+
+function getMobileAvailableViews() {
+  return ["terrain", "dark"];
+}
+
 let activeViewKey = readStoredView() || "terrain";
 let activeBaseLayer = null;
 
@@ -1232,7 +1243,13 @@ function setMapView(viewKey) {
   });
 }
 
-Object.entries(MAP_VIEWS).forEach(([key, cfg]) => {
+// ─ Filter views on mobile: only terrain & dark ─
+const viewsToDisplay = isMobileScreen()
+  ? getMobileAvailableViews()
+  : Object.keys(MAP_VIEWS);
+
+viewsToDisplay.forEach((key) => {
+  const cfg = MAP_VIEWS[key];
   const button = document.createElement("button");
   button.type = "button";
   button.className = "view-btn";

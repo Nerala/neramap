@@ -13,7 +13,7 @@
   /* --surface: #161b26; */
   --bg: #7dc87d;
   --surface: #e5f6d1;
-  --panel: #C7854B;
+  --panel: #c7854b;
   --border: #2a3450;
   --muted: #e8eaf0;
   --text: #ffffff;
@@ -51,7 +51,7 @@ a {
   right: 0;
   z-index: 1100;
   height: 56px;
-  background: #C7854B;
+  background: #c7854b;
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
@@ -62,7 +62,7 @@ a {
 #header .logo {
   font-family: "Playfair Display", serif;
   font-size: 1.15rem;
-  font-weight: 700; 
+  font-weight: 700;
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
@@ -247,7 +247,7 @@ a {
   bottom: 0;
   width: 340px;
   z-index: 1050;
-  background:  rgba(28, 35, 51, 0.92);
+  background: rgba(28, 35, 51, 0.92);
   border-left: 1px solid var(--border);
   transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   overflow-y: auto;
@@ -308,7 +308,7 @@ a {
   margin-bottom: 20px;
 }
 .info-card {
-  background:rgba(28, 35, 51, 0.92);
+  background: rgba(28, 35, 51, 0.92);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 12px;
@@ -429,6 +429,154 @@ a {
   }
   #filters {
     top: 114px;
+  }
+}
+
+/* ──────────────────────────────────────────────────────────────────── */
+/* MOBILE RESPONSIVE (max-width: 768px) */
+/* ──────────────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  /* Header — more compact */
+  #header {
+    height: 48px;
+    padding: 0 12px;
+    gap: 10px;
+  }
+  #header .logo {
+    font-size: 1rem;
+  }
+  #header .subtitle {
+    display: none;
+  }
+  #header .counter {
+    font-size: 0.65rem;
+    padding: 3px 8px;
+  }
+
+  /* Map — adjust top offset */
+  #map {
+    top: 48px;
+  }
+
+  /* Search — more mobile-friendly */
+  #search-wrap {
+    top: 58px;
+    left: 8px;
+    margin-left: 0;
+    gap: 6px;
+  }
+  #search-input {
+    width: 160px;
+    padding: 6px 10px;
+    font-size: 0.75rem;
+    margin-left: 36px;
+  }
+
+  /* View switcher — stacked vertically on tight screens */
+  #view-switcher {
+    top: 58px;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-wrap: wrap;
+    gap: 6px;
+    max-width: calc(100vw - 32px);
+  }
+  .view-btn {
+    padding: 6px 12px;
+    font-size: 0.68rem;
+  }
+
+  /* Hide filters on mobile */
+  #filters {
+    display: none;
+  }
+
+  /* Hide legend on mobile */
+  #legend {
+    display: none;
+  }
+
+  /* Reduce brand mark logo size */
+  #brand-mark {
+    width: 140px;
+    padding: 7px 7px 5px;
+    bottom: 12px;
+    left: 8px;
+  }
+
+  /* Info panel — full width on mobile */
+  #info-panel {
+    width: 100%;
+    right: -100% !important;
+    transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  #info-panel.open {
+    right: 0 !important;
+  }
+  #info-panel h2 {
+    font-size: 1.25rem;
+  }
+
+  /* Hide zoom hint on small screens */
+  #zoom-hint {
+    display: none;
+  }
+
+  /* Adjust info grid for mobile */
+  .info-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .info-card .label {
+    font-size: 0.6rem;
+  }
+  .info-card .value {
+    font-size: 0.85rem;
+  }
+}
+
+/* Very small screens (max-width: 500px) */
+@media (max-width: 500px) {
+  #header .counter {
+    display: none;
+  }
+
+  #search-wrap {
+    top: 54px;
+  }
+
+  #search-input {
+    width: 140px;
+    padding: 5px 8px;
+    font-size: 0.7rem;
+  }
+
+  #view-switcher {
+    display: none;
+  }
+
+  #brand-mark {
+    width: 120px;
+    bottom: 8px;
+    left: 4px;
+    border-radius: 14px;
+    padding: 5px 5px 3px;
+  }
+
+  #info-panel {
+    padding: 20px 16px;
+  }
+  #info-panel .close-btn {
+    width: 24px;
+    height: 24px;
+    font-size: 0.8rem;
+  }
+  #info-panel h2 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  #info-panel .lang-iso {
+    margin-bottom: 12px;
   }
 }
 
