@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carte des langues du Cameroun — Nerala</title>
+
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
+    />
+    <!-- MarkerCluster CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <div class="logo">NeraMap Cameroun</div>
+      <div class="subtitle">
+        Distribution des langues locales · 250+ langues
+      </div>
+      <div class="counter">
+        Affichées : <span id="shown-count">0</span> langues
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div id="search-wrap">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Rechercher une langue…"
+      />
+    </div>
+
+    <!-- View switcher -->
+    <div id="view-switcher" aria-label="Choix de vue"></div>
+
+    <!-- Filter buttons -->
+    <div id="filters"></div>
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!-- Legend -->
+    <div id="legend">
+      <h4>Familles linguistiques</h4>
+      <div class="legend-row">
+        <div class="legend-dot" style="background: var(--niger-congo)"></div>
+        Niger-Congo
+      </div>
+      <div class="legend-row">
+        <div class="legend-dot" style="background: var(--afro-asiatic)"></div>
+        Afro-Asiatique
+      </div>
+      <div class="legend-row">
+        <div class="legend-dot" style="background: var(--nilo-saharan)"></div>
+        Nilo-Saharien
+      </div>
+      <div class="legend-row">
+        <div class="legend-dot" style="background: var(--ubangian)"></div>
+        Oubanguien
+      </div>
+      <div class="legend-row">
+        <div class="legend-dot" style="background: var(--unclassified)"></div>
+        Autre / Isolat
+      </div>
+      <div class="legend-vitality">
+        <div class="vit-row">
+          <span class="vit-icon">🟢</span> Stable / Vigoureux
+        </div>
+        <div class="vit-row"><span class="vit-icon">🟡</span> Vulnérable</div>
+        <div class="vit-row"><span class="vit-icon">🔴</span> En danger</div>
+        <div class="vit-row">
+          <span class="vit-icon">💀</span> Critique / Éteint
+        </div>
+      </div>
+    </div>
+
+    <!-- Brand mark -->
+    <a id="brand-mark" href="https://nerala.ap" aria-label="Retour à l'accueil">
+      <img src="../logos/nerala-map-removebg-preview.png" alt="Logo Nerala" />
+    </a>
+
+    <!-- Info Panel -->
+    <div id="info-panel">
+      <button class="close-btn" id="close-panel">✕</button>
+      <div id="panel-content"></div>
+    </div>
+
+    <!-- Zoom hint -->
+    <div id="zoom-hint">🔍 Zoomez pour explorer les clusters</div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+
+    <script src="data/custom-languages-app-ready.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
