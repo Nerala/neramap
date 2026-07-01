@@ -89,7 +89,10 @@
 
     <!-- Brand mark -->
     <a id="brand-mark" href="https://nerala.ap" aria-label="Retour à l'accueil">
-      <img src="public/logo/nerala-map-removebg-preview.png" alt="Logo Nerala" />
+      <img
+        src="public/logo/nerala-map-removebg-preview.png"
+        alt="Logo Nerala"
+      />
     </a>
 
     <!-- Info Panel -->
@@ -105,7 +108,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
 
+    <!-- External data (loaded first) -->
     <script src="data/custom-languages-app-ready.js"></script>
-    <script src="app.js"></script>
+
+    <!-- NeraMap modular scripts (load order matters) -->
+    <script src="js/config.js"></script>
+    <script src="js/tile-cache.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/map-init.js"></script>
+    <script src="js/markers.js"></script>
+    <script src="js/panel.js"></script>
+    <script src="js/search-filters.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
