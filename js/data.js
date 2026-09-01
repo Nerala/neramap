@@ -1102,7 +1102,7 @@ window.NeraMap = window.NeraMap || {};
       vitality: "critical",
       region: "Égypte",
       description:
-        "Dernière étape de la langue égyptienne ancienne, s'écrivant avec l'alphabet copte. Conservée principalement comme langue liturgique au sein de l'Église orthodoxe copte en Égypte.",
+        "Dernière étape de la langue égyptienne ancienne, s'écrivant avec l'alphabet copte. Conservée principalement comme langue liturgique au sein de l'Église copte orthodoxe en Égypte.",
     },
   ];
 

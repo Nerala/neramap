@@ -7294,7 +7294,7 @@ window.NERALA_LANGUAGE_DATA = [
     vitality: "critical",
     region: "Égypte",
     description:
-      "Dernière étape de la langue égyptienne ancienne, s'écrivant avec l'alphabet copte. Conservée principalement comme langue liturgique au sein de l'Église orthodoxe copte en Égypte.",
+      "Dernière étape de la langue égyptienne ancienne, s'écrivant avec l'alphabet copte. Conservée principalement comme langue liturgique au sein de l'Église copte orthodoxe en Égypte.",
     points: [
       {
         lat: 26.820553,
@@ -7310,7 +7310,7 @@ window.NERALA_LANGUAGE_DATA = [
       },
     ],
     places: ["Le Caire", "Alexandrie", "Haute-Égypte", "Asyut", "Akhmim"],
-    aliases: ["Copte", "Coptic Egyptian", "ⲙⲛⲧⲣⲉⲠⲛⲭⲏBC", "Kyptaios"],
+    aliases: ["Copte", "Coptic Egyptian", "ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙ", "Kyptaios"],
     dialects: [
       "Sahidique (Sahidic)",
       "Bohairique (Bohairic)",
