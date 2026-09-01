@@ -7282,4 +7282,42 @@ window.NERALA_LANGUAGE_DATA = [
       "Zulgwa)",
     ],
   },
+  {
+    id: 253,
+    name: "Coptic",
+    iso: "cop",
+    lat: 26.820553,
+    lng: 30.802498,
+    family: "Afro-Asiatic",
+    subfamily: "Egyptian",
+    speakers: 0,
+    vitality: "critical",
+    region: "Égypte",
+    description:
+      "Dernière étape de la langue égyptienne ancienne, s'écrivant avec l'alphabet copte. Conservée principalement comme langue liturgique au sein de l'Église orthodoxe copte en Égypte.",
+    points: [
+      {
+        lat: 26.820553,
+        lng: 30.802498,
+      },
+      {
+        lat: 30.04442,
+        lng: 31.235712,
+      },
+      {
+        lat: 31.200092,
+        lng: 29.918739,
+      },
+    ],
+    places: ["Le Caire", "Alexandrie", "Haute-Égypte", "Asyut", "Akhmim"],
+    aliases: ["Copte", "Coptic Egyptian", "ⲙⲛⲧⲣⲉⲠⲛⲭⲏBC", "Kyptaios"],
+    dialects: [
+      "Sahidique (Sahidic)",
+      "Bohairique (Bohairic)",
+      "Akhmimique (Akhmimic)",
+      "Fayoumique (Faiyumic)",
+      "Lycopolitain (Lycopolitan)",
+    ],
+  },
 ];
+
