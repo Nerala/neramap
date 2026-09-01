@@ -1075,7 +1075,22 @@ const EMBEDDED_LANGUAGES = [
     region: "Littoral/Ouest",
     description: "Langue des hautes terres de la Moungo-Nkam.",
   },
+  {
+    id: 81,
+    name: "Coptic",
+    iso: "cop",
+    lat: 26.820553,
+    lng: 30.802498,
+    family: "Afro-Asiatic",
+    subfamily: "Egyptian",
+    speakers: 0,
+    vitality: "critical",
+    region: "Égypte",
+    description:
+      "Dernière étape de la langue égyptienne ancienne, s'écrivant avec l'alphabet copte. Conservée principalement comme langue liturgique au sein de l'Église copte orthodoxe en Égypte.",
+  },
 ];
+
 
 function normalizeLanguage(lang) {
   return {
