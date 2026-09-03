@@ -102,6 +102,14 @@ window.NeraMap = window.NeraMap || {};
     });
   }
 
+  function refreshLabels(labels) {
+    document.querySelectorAll(".view-btn").forEach(function (btn) {
+      const cfg = MAP_VIEWS[btn.dataset.view];
+      btn.textContent = labels[cfg.label] || cfg.label;
+      btn.title = labels[cfg.description] || cfg.description;
+    });
+  }
+
   // ── Reset map to default view ──
   function resetView(map) {
     map.setView(DEFAULT_CENTER, DEFAULT_ZOOM, { animate: true, duration: 0.8 });
@@ -128,6 +136,7 @@ window.NeraMap = window.NeraMap || {};
       resetView: function () {
         resetView(map);
       },
+      refreshLabels: refreshLabels,
     };
 
     return map;
