@@ -114,9 +114,17 @@ window.NeraMap = window.NeraMap || {};
     initSearch(map);
   }
 
+  function refreshLabels(labels) {
+    document.querySelectorAll(".filter-btn").forEach(function (btn) {
+      const cfg = FAMILY_CONFIG[btn.dataset.family];
+      btn.lastChild.textContent = labels[cfg.label] || cfg.label;
+    });
+  }
+
   // ── Public API ──
   ns.SearchFilters = {
     init: init,
     currentData: currentData,
+    refreshLabels: refreshLabels,
   };
 })(window.NeraMap);
