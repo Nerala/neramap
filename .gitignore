@@ -1,0 +1,74 @@
+# ==========================================
+# Video Production & Media (Local only)
+# ==========================================
+# Rendered video outputs
+*.mp4
+*.webm
+*.mov
+*.mkv
+*.avi
+
+# Audio outputs & voiceovers
+*.mp3
+*.wav
+*.aac
+*.flac
+*.vtt
+
+# Remotion Video Suite & generation tools
+video/
+.remotion/
+generate_voiceovers.py
+
+# ==========================================
+# Dependencies & Package Managers
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ==========================================
+# Virtual Environments & Python
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Operating System & IDE Artifacts
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Project Specific Local / Cache Files
+# ==========================================
+# Raw source downloads (re-fetchable)
+data/sources/
+
+# Scratch & temporary directories
+scratch/
+tmp/
+temp/

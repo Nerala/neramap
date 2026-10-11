@@ -2,7 +2,7 @@
 //  NeraMap Service Worker — Tile caching for offline & faster reloads
 // ═══════════════════════════════════════════════════════════════════════════════
 
-const CACHE_NAME = "neramap-tiles-v1";
+const CACHE_NAME = "neramap-tiles-v2";
 
 // Tile URL patterns we want to cache
 const TILE_PATTERNS = [

@@ -106,6 +106,7 @@ window.NeraMap = window.NeraMap || {};
         icon: createMarkerIcon(lang),
       });
 
+      const famCfg = FAMILY_CONFIG[lang.family] || FAMILY_CONFIG["Unclassified"];
       // Tooltip
       marker.bindTooltip(
         "<div style=\"font-family:'DM Sans',sans-serif;min-width:160px\">" +
@@ -113,14 +114,13 @@ window.NeraMap = window.NeraMap || {};
           lang.name +
           "</div>" +
           '<div style="font-size:0.72rem;color:#aaa">' +
-          lang.family +
+          (famCfg ? famCfg.label : lang.family) +
           " · " +
           lang.subfamily +
           "</div>" +
-          '<div style="font-size:0.72rem;margin-top:4px">' +
+          '<div style="font-size:0.72rem;margin-top:4px;display:flex;align-items:center;gap:5px;">' +
           (VITALITY_CONFIG[lang.vitality]
-            ? VITALITY_CONFIG[lang.vitality].icon +
-              " " +
+            ? '<span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:' + VITALITY_CONFIG[lang.vitality].color + '"></span> ' +
               VITALITY_CONFIG[lang.vitality].label
             : "") +
           "</div>" +

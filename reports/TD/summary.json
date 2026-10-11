@@ -1,0 +1,36 @@
+{
+  "records": 141,
+  "matched": "141/141 (100%)",
+  "with_iso": "134/141 (95%)",
+  "with_speakers": "28/141 (20%)",
+  "with_vitality": "140/141 (99%)",
+  "with_wikipedia": "132/141 (94%)",
+  "with_wals": "44/141 (31%)",
+  "vitality": {
+    "endangered": 32,
+    "extinct": 6,
+    "stable": 82,
+    "unknown": 1,
+    "vulnerable": 15,
+    "critical": 5
+  },
+  "families": {
+    "Unclassified": 3,
+    "Nilo-Saharan": 49,
+    "Creole": 1,
+    "Niger-Congo": 27,
+    "Afro-Asiatic": 61
+  },
+  "severity": {
+    "warn": 144,
+    "info": 4
+  },
+  "issue_types": {
+    "speakers_missing": 113,
+    "outside_country": 31,
+    "speakers_outdated": 3,
+    "vitality_unknown": 1
+  },
+  "coverage_gaps": 3,
+  "generated": "2026-10-09T16:54:26"
+}

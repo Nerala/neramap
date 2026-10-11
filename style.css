@@ -75,16 +75,77 @@ a {
 }
 #header .counter {
   margin-left: auto;
-  font-size: 0.72rem;
+  font-size: 0.74rem;
   color: var(--muted);
   background: var(--panel);
   border: 1px solid var(--border);
-  padding: 4px 12px;
-  border-radius: 20px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
 }
 #header .counter span {
   color: var(--accent);
+  font-weight: 700;
+}
+
+/* ── Country Selector Dropdown ── */
+.country-select-wrap {
+  display: flex;
+  align-items: center;
+}
+#country-select {
+  background: rgba(28, 35, 51, 0.85);
+  color: #f3f4f6;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 0.78rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(8px);
+}
+#country-select:hover,
+#country-select:focus {
+  border-color: #f0a500;
+  background: rgba(28, 35, 51, 0.98);
+}
+#country-select option {
+  background: #1c2333;
+  color: #fff;
+  padding: 6px;
+}
+
+/* ── Language Switcher ── */
+#lang-switcher {
+  display: flex;
+  align-items: center;
+  background: rgba(28, 35, 51, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-left: 6px;
+}
+.lang-pill {
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  font-size: 0.72rem;
   font-weight: 600;
+  padding: 5px 9px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.04em;
+}
+.lang-pill:hover {
+  color: #ffffff;
+}
+.lang-pill.active {
+  background: #f0a500;
+  color: #0e1117;
+  font-weight: 700;
 }
 
 /* ── Map ── */
@@ -143,10 +204,11 @@ a {
   border: 1px solid var(--border);
   background: rgba(28, 35, 51, 0.92);
   color: var(--muted);
-  border-radius: 999px;
-  padding: 7px 14px;
-  font-size: 0.72rem;
-  letter-spacing: 0.03em;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 0.74rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
   cursor: pointer;
   transition:
     transform 0.18s,
@@ -158,6 +220,7 @@ a {
 .view-btn:hover {
   transform: translateY(-1px);
   color: var(--text);
+  border-color: rgba(240, 165, 0, 0.5);
 }
 .view-btn.active {
   background: #f0a500;
@@ -195,7 +258,7 @@ a {
   z-index: 1000;
   background: var(--panel);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 14px 18px;
   min-width: 200px;
 }
@@ -216,11 +279,11 @@ a {
   color: var(--text);
 }
 .legend-dot {
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   flex-shrink: 0;
-  border: 2px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .legend-vitality {
   margin-top: 12px;
@@ -234,6 +297,13 @@ a {
   font-size: 0.72rem;
   color: var(--muted);
   margin-bottom: 5px;
+}
+.vit-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 .vit-icon {
   font-size: 0.9rem;
@@ -407,14 +477,14 @@ a {
 /* ── Zoom hint ── */
 #zoom-hint {
   position: fixed;
-  bottom: 24px;
+  bottom: 34px;
   right: 16px;
   z-index: 1000;
   background: var(--panel);
   border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 8px 14px;
-  font-size: 0.7rem;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 0.72rem;
   color: var(--muted);
   pointer-events: none;
 }
@@ -602,17 +672,23 @@ a {
   background: var(--panel) !important;
   color: var(--text) !important;
   border-color: var(--border) !important;
+  border-radius: 6px !important;
 }
 .leaflet-control-zoom a:hover {
   background: var(--border) !important;
 }
 .leaflet-control-attribution {
-  background: rgba(14, 17, 23, 0.8) !important;
-  color: var(--muted) !important;
-  font-size: 0.6rem !important;
+  background: rgba(14, 18, 27, 0.92) !important;
+  color: #d1d5db !important;
+  font-size: 0.68rem !important;
+  padding: 3px 8px !important;
+  border-radius: 4px 0 0 0 !important;
+  box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.25) !important;
 }
 .leaflet-control-attribution a {
-  color: var(--accent) !important;
+  color: #f0a500 !important;
+  text-decoration: underline !important;
+  font-weight: 500 !important;
 }
 
 .leaflet-control-layers {
@@ -647,3 +723,508 @@ a {
   background: var(--border);
   border-radius: 2px;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   DATA VIZ STUDIO & STORYTELLING EXTENSIONS
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Country Selector Pills ── */
+.country-pills {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(14, 18, 27, 0.45);
+  padding: 3px 5px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  flex-wrap: nowrap;
+}
+
+.country-pill {
+  background: transparent;
+  border: none;
+  color: #e5e7eb;
+  padding: 5px 11px;
+  border-radius: 999px;
+  font-size: 0.73rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.country-pill:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-1px);
+}
+
+.country-pill.active {
+  background: #f0a500;
+  color: #0e1117;
+  font-weight: 700;
+  box-shadow: 0 1px 8px rgba(240, 165, 0, 0.35);
+}
+
+/* Mode Navigation Tabs */
+#mode-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 10px;
+  flex-wrap: nowrap;
+}
+.mode-btn {
+  background: rgba(28, 35, 51, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #e5e7eb;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+.mode-btn:hover {
+  background: rgba(28, 35, 51, 0.95);
+  border-color: #f0a500;
+  color: #fff;
+  transform: translateY(-1px);
+}
+.mode-btn.active {
+  background: #f0a500;
+  border-color: #f0a500;
+  color: #0e1117;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(240, 165, 0, 0.25);
+}
+
+/* Studio Viewport */
+#viz-studio-container {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 500;
+  background: #0d1117;
+  color: #f3f4f6;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.viz-subview-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: calc(100vh - 56px);
+  padding: 20px 28px;
+  box-sizing: border-box;
+}
+
+.viz-header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 16px;
+}
+
+.viz-title-box h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.viz-title-box p {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  font-weight: 300;
+}
+
+.viz-controls-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.viz-btn-group {
+  display: flex;
+  gap: 4px;
+  background: rgba(22, 27, 38, 0.8);
+  padding: 3px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.viz-pill-btn {
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+
+.viz-pill-btn:hover {
+  color: #fff;
+}
+
+.viz-pill-btn.active {
+  background: rgba(240, 165, 0, 0.18);
+  color: #f0a500;
+  font-weight: 700;
+  border: 1px solid rgba(240, 165, 0, 0.4);
+}
+
+.viz-metric-badge {
+  background: rgba(28, 35, 51, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+.viz-content-split {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  min-height: 0;
+}
+
+.viz-chart-area {
+  flex: 1;
+  background: rgba(18, 24, 38, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 520px;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.viz-info-sidebar {
+  width: 330px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.viz-detail-card {
+  background: rgba(22, 27, 38, 0.85);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 22px;
+  color: #e5e7eb;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.viz-card-empty {
+  color: #6b7280;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 40px 10px;
+  line-height: 1.5;
+}
+
+.viz-card-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.viz-card-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.viz-card-subtitle {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-bottom: 14px;
+}
+
+.viz-card-desc {
+  font-size: 0.8rem;
+  color: #d1d5db;
+  line-height: 1.45;
+  margin-bottom: 12px;
+}
+
+.viz-stat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.viz-stat-item {
+  background: rgba(14, 18, 27, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.viz-stat-label {
+  font-size: 0.68rem;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.viz-stat-value {
+  font-size: 0.88rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.viz-tree-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  overflow-y: auto;
+  max-height: 180px;
+  margin-top: 10px;
+  padding-right: 4px;
+}
+
+.viz-tag {
+  background: rgba(30, 41, 59, 0.8);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  color: #e2e8f0;
+}
+
+.viz-tag-more {
+  font-size: 0.7rem;
+  color: #9ca3af;
+  padding: 4px 6px;
+}
+
+.viz-action-btn {
+  width: 100%;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: transform 0.15s, filter 0.15s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.viz-action-btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.1);
+}
+
+/* ── Choropleth Legend (matching Image 2) ── */
+.choropleth-legend-container {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  background: rgba(15, 23, 42, 0.88);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  pointer-events: none;
+}
+.legend-label-title {
+  font-size: 0.68rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.legend-swatches-row {
+  display: flex;
+  gap: 4px;
+}
+.legend-swatch-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.legend-swatch-box {
+  width: 28px;
+  height: 12px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.legend-swatch-text {
+  font-size: 0.62rem;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+/* ── Regional Vitality & Language Roster ── */
+.region-vitality-block {
+  margin: 14px 0;
+  padding: 10px 12px;
+  background: rgba(14, 18, 27, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+}
+.region-block-title {
+  font-size: 0.68rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.region-vitality-bar {
+  display: flex;
+  height: 7px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 6px;
+}
+.vit-segment {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+.region-vitality-legend {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.62rem;
+  font-weight: 600;
+}
+.region-lang-roster-header {
+  font-size: 0.72rem;
+  color: #cbd5e1;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 14px 0 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.region-lang-roster-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 220px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+.region-lang-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 8px;
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.region-lang-row:hover {
+  background: rgba(30, 41, 59, 0.85);
+  border-color: rgba(240, 165, 0, 0.4);
+}
+.region-lang-left {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  overflow: hidden;
+}
+.region-lang-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.region-lang-iso {
+  font-size: 0.65rem;
+  color: #64748b;
+  font-family: monospace;
+}
+.region-lang-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.region-lang-fam {
+  font-size: 0.65rem;
+  font-weight: 500;
+}
+.region-locate-btn {
+  background: rgba(240, 165, 0, 0.15);
+  border: 1px solid rgba(240, 165, 0, 0.35);
+  color: #f0a500;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+.region-locate-btn:hover {
+  background: #f0a500;
+  color: #0f172a;
+}
+
+@media (max-width: 900px) {
+  #header .subtitle {
+    display: none;
+  }
+  .country-pills {
+    overflow-x: auto;
+    max-width: 50vw;
+  }
+  .viz-content-split {
+    flex-direction: column;
+  }
+  .viz-info-sidebar {
+    width: 100%;
+  }
+}
+

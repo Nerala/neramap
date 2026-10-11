@@ -1,0 +1,396 @@
+id,name,glottocode,severity,type,detail
+CM-0001,Afade,afad1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0003,Ajumbu,mbuu1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0004,Akoose,akoo1248,info,dialects_rejoined,9 → 7
+CM-0005,Akum,akum1238,warn,coord_drift,110 km from Glottolog point
+CM-0005,Akum,akum1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0006,"Arabic, Shuwa",chad1249,error,coord_far,"332 km from Glottolog point (14.67, 13.5)"
+CM-0008,Bafanji,bafa1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0009,Bafaw-Balong,bafa1247,info,dialects_rejoined,11 → 2
+CM-0009,Bafaw-Balong,bafa1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0012,Baka,baka1272,info,encoding_or_whitespace_fixed,region
+CM-0012,Baka,baka1272,info,override_applied,lat: 2.1601
+CM-0012,Baka,baka1272,info,override_applied,lng: 13.7804
+CM-0012,Baka,baka1272,info,override_applied,region: Est
+CM-0012,Baka,baka1272,warn,outside_country,"coordinates (2.1601, 13.7804) not inside any ADM1 region"
+CM-0013,Bakoko,bako1249,info,dialects_rejoined,13 → 7
+CM-0013,Bakoko,bako1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0014,Bakole,bako1250,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0016,Balo,balo1264,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0017,Bamali,bama1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0018,Bambalang,bamb1265,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0019,Bambili-Bambui,bamb1266,info,dialects_rejoined,6 → 2
+CM-0019,Bambili-Bambui,bamb1266,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0020,Bamenyam,bame1260,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0021,Bamukumbit,bamu1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0022,Bamun,bamu1253,warn,coord_drift,111 km from Glottolog point
+CM-0022,Bamun,bamu1253,info,region_corrected,'Centre Cameroun' → 'Nord-Ouest' (from coordinates)
+CM-0023,Bamunka,bamu1256,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0024,Bana,bana1305,warn,outside_country,"coordinates (10.274284, 13.476923) not inside any ADM1 region"
+CM-0025,Bangandu,bang1347,info,encoding_or_whitespace_fixed,region
+CM-0025,Bangandu,bang1347,error,coord_far,"216 km from Glottolog point (2.18716, 14.7506)"
+CM-0025,Bangandu,bang1347,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0027,Bankon,bank1256,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0028,Barombi,baro1252,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0029,Basaa,basa1284,info,region_corrected,'Centre Cameroun' → 'Littoral' (from coordinates)
+CM-0030,Bassossi,bass1260,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0031,Bata,bata1314,warn,coord_drift,141 km from Glottolog point
+CM-0031,Bata,bata1314,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0032,Batanga,bata1285,info,dialects_rejoined,12 → 3
+CM-0032,Batanga,bata1285,warn,coord_drift,181 km from Glottolog point
+CM-0032,Batanga,bata1285,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0033,Bati,bati1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0033,Bati,bati1251,info,region_corrected,'Centre Cameroun' → 'Littoral' (from coordinates)
+CM-0034,Beba,beba1238,info,region_corrected,'Nord-ouest Cameroun' → 'Sud-Ouest' (from coordinates)
+CM-0035,Bebele,bebe1248,warn,coord_drift,95 km from Glottolog point
+CM-0035,Bebele,bebe1248,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0035,Bebele,bebe1248,info,region_corrected,'Centre Cameroun' → 'Est' (from coordinates)
+CM-0036,Bebil,bebi1242,info,encoding_or_whitespace_fixed,region
+CM-0036,Bebil,bebi1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0037,Befang,befa1241,info,dialects_rejoined,18 → 6
+CM-0037,Befang,befa1241,warn,coord_drift,79 km from Glottolog point
+CM-0037,Befang,befa1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0038,Bekwel,bekw1242,info,encoding_or_whitespace_fixed,region
+CM-0038,Bekwel,bekw1242,error,coord_far,"263 km from Glottolog point (1.71801, 14.6527)"
+CM-0038,Bekwel,bekw1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0039,Bikya,biky1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0040,Bishuo,bish1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0041,Bitare,bita1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0042,Bokyi,boky1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0043,Bomwali,bomw1238,error,coord_far,"329 km from Glottolog point (1.71005, 15.9546)"
+CM-0044,Bonkeng,bonk1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0045,Buduma,budu1265,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0045,Buduma,budu1265,warn,outside_country,"coordinates (13.021107, 14.580308) not inside any ADM1 region"
+CM-0046,Bulu,bulu1251,info,override_applied,lat: 3.1614
+CM-0046,Bulu,bulu1251,info,override_applied,lng: 11.6365
+CM-0046,Bulu,bulu1251,info,override_applied,region: Sud
+CM-0048,Bung,bung1259,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0049,Busam,busa1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0050,Busuu,busu1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0051,Buwal,buwa1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0052,Byep,byep1241,info,encoding_or_whitespace_fixed,region
+CM-0052,Byep,byep1241,info,dialects_rejoined,3 → 2
+CM-0052,Byep,byep1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0053,Caka,caka1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0054,Chungmboko,cung1238,info,encoding_or_whitespace_fixed,region
+CM-0054,Chungmboko,cung1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0055,Cuvok,cuvo1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0056,Daba,nucl1683,info,override_applied,lat: 10.3521
+CM-0056,Daba,nucl1683,info,override_applied,lng: 13.6318
+CM-0056,Daba,nucl1683,info,override_applied,region: Extrême-Nord
+CM-0056,Daba,nucl1683,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0057,Dama,dama1267,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0058,Denya,deny1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0059,Dii,diii1241,info,dialects_rejoined,10 → 9
+CM-0060,Dimbong,dimb1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0061,Doyayo,doya1240,info,speakers_outdated,latest figure is from 1985
+CM-0062,Duala,dual1243,info,dialects_rejoined,11 → 4
+CM-0063,Dugun,dugu1248,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0065,Duli-Gey,duli1241,warn,coord_drift,179 km from Glottolog point
+CM-0065,Duli-Gey,duli1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0065,Duli-Gey,duli1241,info,region_corrected,'Nord Cameroun' → 'Extrême-Nord' (from coordinates)
+CM-0066,Duupa,duup1238,info,speakers_outdated,latest figure is from 1991
+CM-0067,Elip,elip1238,warn,coord_drift,94 km from Glottolog point
+CM-0067,Elip,elip1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0068,Eman,eman1238,info,dialects_rejoined,5 → 2
+CM-0068,Eman,eman1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0069,Esimbi,esim1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0070,Eton,eton1253,info,dialects_rejoined,4 → 2
+CM-0071,Ewondo,ewon1239,info,dialects_rejoined,19 → 16
+CM-0071,Ewondo,ewon1239,info,override_applied,lat: 3.85
+CM-0071,Ewondo,ewon1239,info,override_applied,lng: 11.5
+CM-0071,Ewondo,ewon1239,info,override_applied,region: Centre
+CM-0072,"Fali, North",nort2770,info,dialects_rejoined,6 → 3
+CM-0072,"Fali, North",nort2770,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0073,Fang,fang1246,info,dialects_rejoined,6 → 3
+CM-0073,Fang,fang1246,warn,coord_drift,153 km from Glottolog point
+CM-0074,Fe'efe'e,fefe1239,info,region_corrected,'West region' → 'Ouest' (from coordinates)
+CM-0075,French,stan1290,info,encoding_or_whitespace_fixed,description
+CM-0075,French,stan1290,info,override_applied,lat: 3.8667
+CM-0075,French,stan1290,info,override_applied,lng: 11.5167
+CM-0075,French,stan1290,info,override_applied,region: Centre
+CM-0075,French,stan1290,error,coord_far,"4991 km from Glottolog point (48.0, 2.0)"
+CM-0075,French,stan1290,warn,low_confidence_match,name_exact_global → French (stan1290)
+CM-0076,"Fulfulde, Adamawa",adam1253,warn,coord_drift,144 km from Glottolog point
+CM-0076,"Fulfulde, Adamawa",adam1253,info,region_corrected,'ngaoundere' → 'Adamaoua' (from coordinates)
+CM-0076,"Fulfulde, Adamawa",adam1253,warn,duplicate_glottocode,"adam1253 shared by: Fulfulde, Adamawa, Fulfulde, Mbororo"
+CM-0077,"Fulfulde, Mbororo",adam1253,info,dialects_rejoined,6 → 2
+CM-0077,"Fulfulde, Mbororo",adam1253,warn,coord_drift,144 km from Glottolog point
+CM-0077,"Fulfulde, Mbororo",adam1253,info,region_corrected,'ngaoundere' → 'Adamaoua' (from coordinates)
+CM-0077,"Fulfulde, Mbororo",adam1253,warn,duplicate_glottocode,"adam1253 shared by: Fulfulde, Adamawa, Fulfulde, Mbororo"
+CM-0078,Gavar,gava1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0080,Gbaya-Mbodomo,gbay1281,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0079,"Gbaya, Northwest",nort2775,info,dialects_rejoined,9 → 8
+CM-0079,"Gbaya, Northwest",nort2775,error,coord_far,"249 km from Glottolog point (5.9503, 15.2569)"
+CM-0079,"Gbaya, Northwest",nort2775,info,region_corrected,'Adamaoua' → 'Est' (from coordinates)
+CM-0081,Ghomálá',ghom1247,info,encoding_or_whitespace_fixed,name
+CM-0081,Ghomálá',ghom1247,info,encoding_or_whitespace_fixed,description
+CM-0081,Ghomálá',ghom1247,info,region_corrected,'West region' → 'Ouest' (from coordinates)
+CM-0082,Gidar,gida1247,info,override_applied,lat: 9.8747
+CM-0082,Gidar,gida1247,info,override_applied,lng: 14.0784
+CM-0082,Gidar,gida1247,info,override_applied,region: Nord
+CM-0082,Gidar,gida1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0083,Gimme,gimm1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0084,Gimnime,gimn1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0085,Giziga,sout3051,info,dialects_rejoined,6 → 3
+CM-0086,"Giziga, North",nort3047,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0087,Glavda,glav1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0088,Gude,gude1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0089,Hdi,hdii1240,info,dialects_rejoined,3 → 1
+CM-0089,Hdi,hdii1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0090,Hijuk,hiju1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0091,Hya,hyaa1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0092,Iceve-Maci,icev1238,info,dialects_rejoined,11 → 2
+CM-0092,Iceve-Maci,icev1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0093,Ipulo,ipul1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0093,Ipulo,ipul1238,info,region_corrected,'Nord-ouest Cameroun' → 'Sud-Ouest' (from coordinates)
+CM-0094,Isu,isuf1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0094,Isu,isuf1235,info,region_corrected,'Littoral Cameroun' → 'Sud-Ouest' (from coordinates)
+CM-0095,Iyive,iyiv1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0096,Jina,jina1244,info,dialects_rejoined,6 → 5
+CM-0096,Jina,jina1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0097,Kako,kako1242,warn,coord_drift,127 km from Glottolog point
+CM-0098,Kamkam,mbon1253,warn,coord_drift,89 km from Glottolog point
+CM-0098,Kamkam,mbon1253,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0099,"Kanuri, Central",cent2050,warn,coord_drift,120 km from Glottolog point
+CM-0100,Kare,kare1338,warn,coord_drift,159 km from Glottolog point
+CM-0100,Kare,kare1338,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0101,Kasabe,luoc1235,warn,coord_drift,175 km from Glottolog point
+CM-0101,Kasabe,luoc1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0102,Kemedzung,keme1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0103,Kendem,kend1252,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0104,Kenswei Nsei,kens1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0105,Kenyang,keny1279,info,dialects_rejoined,9 → 3
+CM-0106,Kera,kera1255,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0107,Kol,kolc1235,error,coord_far,"317 km from Glottolog point (3.65994, 12.8574)"
+CM-0107,Kol,kolc1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0107,Kol,kolc1235,info,region_corrected,'Est Cameroun' → 'Sud' (from coordinates)
+CM-0108,Kom,komc1235,info,dialects_rejoined,2 → 1
+CM-0109,Koma,koma1266,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0110,Koonzime,koon1245,info,dialects_rejoined,5 → 2
+CM-0110,Koonzime,koon1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0111,Korop,koro1304,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0112,Koshin,kosh1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0113,Kuo,kuoo1238,error,coord_far,"273 km from Glottolog point (7.97771, 15.4843)"
+CM-0113,Kuo,kuoo1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0117,Kwa',kwaa1265,info,encoding_or_whitespace_fixed,name
+CM-0117,Kwa',kwaa1265,info,encoding_or_whitespace_fixed,description
+CM-0117,Kwa',kwaa1265,warn,coord_drift,123 km from Glottolog point
+CM-0117,Kwa',kwaa1265,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0114,Kwaja,kwaj1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0115,Kwanja,kwan1276,info,dialects_rejoined,6 → 4
+CM-0115,Kwanja,kwan1276,warn,coord_drift,190 km from Glottolog point
+CM-0115,Kwanja,kwan1276,info,region_corrected,'Adamaoua' → 'Centre' (from coordinates)
+CM-0116,Kwasio,kwas1243,info,encoding_or_whitespace_fixed,region
+CM-0116,Kwasio,kwas1243,info,dialects_rejoined,4 → 2
+CM-0116,Kwasio,kwas1243,warn,coord_drift,102 km from Glottolog point
+CM-0116,Kwasio,kwas1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0121,La'bi,labi1244,info,encoding_or_whitespace_fixed,name
+CM-0121,La'bi,labi1244,info,encoding_or_whitespace_fixed,description
+CM-0121,La'bi,labi1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0119,Laimbue,laim1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0122,Lefa,lefa1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0123,Leti,leti1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0124,Lidzonka,dzod1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0125,Longto,long1387,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0126,Mada,mada1293,warn,coord_drift,101 km from Glottolog point
+CM-0126,Mada,mada1293,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0127,Mafa,mafa1239,info,dialects_rejoined,15 → 4
+CM-0128,Majera,maje1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0129,Makaa,maka1304,info,encoding_or_whitespace_fixed,region
+CM-0129,Makaa,maka1304,info,list_repaired,places
+CM-0129,Makaa,maka1304,info,dialects_rejoined,9 → 4
+CM-0130,Malgbe,malg1250,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0131,Malimba,mali1280,error,coord_far,"226 km from Glottolog point (3.67696, 9.67186)"
+CM-0131,Malimba,mali1280,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0131,Malimba,mali1280,info,region_corrected,'Littoral Cameroun' → 'Centre' (from coordinates)
+CM-0132,Mambai,mamb1294,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0133,"Mambila, Cameroon",came1252,warn,coord_drift,114 km from Glottolog point
+CM-0133,"Mambila, Cameroon",came1252,info,region_corrected,'Adamaoua' → 'Nord-Ouest' (from coordinates)
+CM-0134,Manta,mant1267,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0136,Maslam,masl1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0137,Matal,mata1306,info,speakers_outdated,latest figure is from 1982
+CM-0138,Mazagway,maza1304,info,dialects_rejoined,5 → 2
+CM-0138,Mazagway,maza1304,warn,coord_drift,144 km from Glottolog point
+CM-0138,Mazagway,maza1304,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0139,"Mbembe, Tigon",tigo1236,info,dialects_rejoined,10 → 5
+CM-0139,"Mbembe, Tigon",tigo1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0140,Mbo,mboc1235,info,dialects_rejoined,5 → 4
+CM-0140,Mbo,mboc1235,warn,duplicate_glottocode,"mboc1235 shared by: Mbo, Mbo'"
+CM-0141,Mbo',mboc1235,info,encoding_or_whitespace_fixed,name
+CM-0141,Mbo',mboc1235,info,encoding_or_whitespace_fixed,description
+CM-0141,Mbo',mboc1235,warn,coord_drift,124 km from Glottolog point
+CM-0141,Mbo',mboc1235,warn,duplicate_glottocode,"mboc1235 shared by: Mbo, Mbo'"
+CM-0142,Mbudum,mbed1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0143,Mbuko,mbuk1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0144,Mbule,mbul1262,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0144,Mbule,mbul1262,info,region_corrected,'Littoral Cameroun' → 'Centre' (from coordinates)
+CM-0145,Mbum,mbum1254,info,dialects_rejoined,9 → 2
+CM-0145,Mbum,mbum1254,error,coord_far,"239 km from Glottolog point (7.5789, 14.2722)"
+CM-0145,Mbum,mbum1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0146,Medumba,medu1238,info,region_corrected,'Centre Cameroun' → 'Littoral' (from coordinates)
+CM-0147,Mefele,mefe1242,info,dialects_rejoined,5 → 4
+CM-0147,Mefele,mefe1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0148,Mendankwe-Nkwen,mend1261,info,dialects_rejoined,4 → 2
+CM-0148,Mendankwe-Nkwen,mend1261,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0150,Mengisa,meng1263,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0151,Menka,menk1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0152,Merey,mere1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0153,Mesaka,mesa1245,warn,coord_drift,93 km from Glottolog point
+CM-0153,Mesaka,mesa1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0153,Mesaka,mesa1245,info,region_corrected,'Nord-ouest Cameroun' → 'Sud-Ouest' (from coordinates)
+CM-0154,Meta',meta1238,info,encoding_or_whitespace_fixed,name
+CM-0154,Meta',meta1238,info,encoding_or_whitespace_fixed,description
+CM-0154,Meta',meta1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0155,Mfumte,mfum1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0156,Mina,mina1276,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0157,Mmaala,mmaa1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0158,Mmen,mmen1238,info,dialects_rejoined,4 → 3
+CM-0158,Mmen,mmen1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0160,Mofu-Gudur,mofu1248,info,dialects_rejoined,7 → 6
+CM-0159,"Mofu, North",nort3046,info,dialects_rejoined,3 → 2
+CM-0159,"Mofu, North",nort3046,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0162,Mom Jango,momj1237,info,override_applied,lat: 8.8658
+CM-0162,Mom Jango,momj1237,info,override_applied,lng: 12.7473
+CM-0162,Mom Jango,momj1237,info,override_applied,region: Nord
+CM-0162,Mom Jango,momj1237,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0162,Mom Jango,momj1237,warn,outside_country,"coordinates (8.8658, 12.7473) not inside any ADM1 region"
+CM-0163,Mono,mono1269,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0164,Mpade,mpad1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0164,Mpade,mpad1242,warn,outside_country,"coordinates (13.021107, 14.580308) not inside any ADM1 region"
+CM-0165,Mpiemo,mpie1238,info,encoding_or_whitespace_fixed,region
+CM-0165,Mpiemo,mpie1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0166,Mpumpong,mpon1254,info,encoding_or_whitespace_fixed,region
+CM-0166,Mpumpong,mpon1254,info,dialects_rejoined,15 → 5
+CM-0166,Mpumpong,mpon1254,warn,coord_drift,154 km from Glottolog point
+CM-0166,Mpumpong,mpon1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0167,Mser,mser1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0168,Mundabli,buuu1246,info,dialects_rejoined,4 → 3
+CM-0168,Mundabli,buuu1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0169,Mundang,mund1325,info,dialects_rejoined,10 → 4
+CM-0169,Mundang,mund1325,error,coord_far,"260 km from Glottolog point (9.83195, 14.4751)"
+CM-0171,Mungaka,mung1266,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0172,Mungbam,abar1238,error,coord_far,"218 km from Glottolog point (6.5805, 10.2267)"
+CM-0172,Mungbam,abar1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0172,Mungbam,abar1238,warn,outside_country,"coordinates (7.851946, 11.729172) not inside any ADM1 region"
+CM-0174,Musgu,musg1254,info,dialects_rejoined,10 → 7
+CM-0174,Musgu,musg1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0175,Muyang,muya1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0176,Naami,bebe1250,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0177,Nagumi,nagu1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0178,Naki,naki1238,warn,coord_drift,82 km from Glottolog point
+CM-0178,Naki,naki1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0179,Ncane,ncan1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0181,Nda'nda',ndan1241,info,encoding_or_whitespace_fixed,name
+CM-0181,Nda'nda',ndan1241,info,encoding_or_whitespace_fixed,description
+CM-0181,Nda'nda',ndan1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0180,Ndai,ndai1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0182,Ndemli,ndem1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0183,Ndoola,ndoo1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0183,Ndoola,ndoo1241,warn,outside_country,"coordinates (7.168765, 11.595001) not inside any ADM1 region"
+CM-0184,Ngamambo,ngam1267,info,dialects_rejoined,7 → 1
+CM-0184,Ngamambo,ngam1267,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0185,Ngambay,ngam1268,warn,coord_drift,185 km from Glottolog point
+CM-0186,Ngemba,ngem1255,info,dialects_rejoined,24 → 10
+CM-0186,Ngemba,ngem1255,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0187,Ngie,ngie1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0188,Ngiemboon,ngie1241,info,region_corrected,'West region' → 'Ouest' (from coordinates)
+CM-0189,Ngomba,ngom1272,info,speakers_outdated,latest figure is from 1999
+CM-0189,Ngomba,ngom1272,info,region_corrected,'West region' → 'Ouest' (from coordinates)
+CM-0190,Ngombale,ngom1271,info,dialects_rejoined,3 → 2
+CM-0190,Ngombale,ngom1271,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0190,Ngombale,ngom1271,info,region_corrected,'West region' → 'Ouest' (from coordinates)
+CM-0191,Ngoshie,ngos1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0192,Ngwe,ngwe1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0193,Ngwo,ngwo1241,info,dialects_rejoined,11 → 8
+CM-0193,Ngwo,ngwo1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0194,Njen,njen1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0195,Njyem,njye1238,info,encoding_or_whitespace_fixed,region
+CM-0195,Njyem,njye1238,error,coord_far,"314 km from Glottolog point (2.30483, 14.1175)"
+CM-0195,Njyem,njye1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0195,Njyem,njye1238,info,region_corrected,'Est Cameroun' → 'Centre' (from coordinates)
+CM-0196,Nkongho,nkon1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0196,Nkongho,nkon1247,info,region_corrected,'Littoral Cameroun' → 'Sud-Ouest' (from coordinates)
+CM-0197,Nomaande,noma1260,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0197,Nomaande,noma1260,info,region_corrected,'Centre Cameroun' → 'Littoral' (from coordinates)
+CM-0198,Noone,noon1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0199,Nubaca,nuba1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0200,Nugunu,nugu1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0201,Nyokon,nyok1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0202,Nyong,nyon1241,warn,coord_drift,172 km from Glottolog point
+CM-0202,Nyong,nyon1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0204,Nzanyi,nzan1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0205,Oku,okuu1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0206,Oroko,orok1266,info,dialects_rejoined,23 → 9
+CM-0207,Osatu,osat1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0209,Pana,pana1293,warn,coord_drift,81 km from Glottolog point
+CM-0209,Pana,pana1293,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0210,Parkwa,park1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0211,Peere,peer1241,info,dialects_rejoined,6 → 3
+CM-0211,Peere,peer1241,warn,coord_drift,137 km from Glottolog point
+CM-0211,Peere,peer1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0216,Pévé,peve1243,info,encoding_or_whitespace_fixed,description
+CM-0216,Pévé,peve1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0212,"Pidgin, Cameroon",came1254,warn,family_mismatch,curated 'Creole' vs Glottolog 'Indo-European'
+CM-0212,"Pidgin, Cameroon",came1254,warn,coord_drift,134 km from Glottolog point
+CM-0212,"Pidgin, Cameroon",came1254,info,speakers_outdated,latest figure is from 1998
+CM-0212,"Pidgin, Cameroon",came1254,info,region_corrected,'Adamaoua' → 'Ouest' (from coordinates)
+CM-0214,Pol,pomo1271,info,dialects_rejoined,6 → 5
+CM-0214,Pol,pomo1271,warn,coord_drift,77 km from Glottolog point
+CM-0214,Pol,pomo1271,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0215,Psikye,psik1239,info,dialects_rejoined,3 → 2
+CM-0215,Psikye,psik1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0217,Samba Leko,samb1305,info,dialects_rejoined,10 → 5
+CM-0217,Samba Leko,samb1305,warn,coord_drift,195 km from Glottolog point
+CM-0217,Samba Leko,samb1305,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0218,Sari,nsar1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0219,Sharwa,shar1249,info,override_applied,lat: 10.1414
+CM-0219,Sharwa,shar1249,info,override_applied,lng: 13.5657
+CM-0219,Sharwa,shar1249,info,override_applied,region: Extrême-Nord
+CM-0219,Sharwa,shar1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0220,Suga,suga1248,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0221,Supapya,baba1264,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0222,Swo,soca1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0222,Swo,soca1235,info,region_corrected,'Centre Cameroun' → 'Est' (from coordinates)
+CM-0223,Tibea,tibe1274,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0224,Tikar,tika1246,info,dialects_rejoined,10 → 7
+CM-0224,Tikar,tika1246,warn,coord_drift,137 km from Glottolog point
+CM-0224,Tikar,tika1246,info,region_corrected,'Adamaoua' → 'Centre' (from coordinates)
+CM-0225,To,tooo1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0226,Tsuvan,tsuv1243,info,override_applied,lat: 10.1551
+CM-0226,Tsuvan,tsuv1243,info,override_applied,lng: 13.628
+CM-0226,Tsuvan,tsuv1243,info,override_applied,region: Extrême-Nord
+CM-0226,Tsuvan,tsuv1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0227,Tuki,tuki1240,info,dialects_rejoined,22 → 8
+CM-0227,Tuki,tuki1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0228,Tunen,tune1261,info,dialects_rejoined,10 → 5
+CM-0228,Tunen,tune1261,info,region_corrected,'Centre Cameroun' → 'Littoral' (from coordinates)
+CM-0229,Tuotomb,tuot1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0231,Twendi,twen1242,warn,coord_drift,115 km from Glottolog point
+CM-0231,Twendi,twen1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0232,Usaghade,usag1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0233,Vame,vame1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0234,Vemgo-Mabas,vemg1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0235,Vengo,veng1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0236,Vute,vute1244,info,region_corrected,'Adamaoua' → 'Centre' (from coordinates)
+CM-0237,Wandala,wand1278,info,dialects_rejoined,15 → 9
+CM-0237,Wandala,wand1278,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0238,Wawa,wawa1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0240,Wumboko,wumb1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0241,Wushi,wush1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0242,Wuzlam,wuzl1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0243,Yamba,yamb1251,warn,coord_drift,104 km from Glottolog point
+CM-0243,Yamba,yamb1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0244,Yambeta,yamb1252,info,dialects_rejoined,3 → 2
+CM-0245,Yangben,yang1293,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0246,Yasa,yasa1242,warn,coord_drift,112 km from Glottolog point
+CM-0246,Yasa,yasa1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0247,Yemba,yemb1246,info,dialects_rejoined,3 → 2
+CM-0248,Yeni,yeni1253,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0249,Yukuben,yuku1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0250,Zhoa,zhoa1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0251,Zizilivakan,zizi1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+CM-0251,Zizilivakan,zizi1238,warn,outside_country,"coordinates (10.274284, 13.476923) not inside any ADM1 region"
+CM-0252,Zulgo-Gemzek,zulg1242,info,dialects_rejoined,5 → 3
+CM-0253,Coptic,copt1239,error,coord_far,"297 km from Glottolog point (29.472, 31.2053)"
+CM-0253,Coptic,copt1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas

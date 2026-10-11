@@ -14,7 +14,7 @@ window.NeraMap = window.NeraMap || {};
   const Panel = ns.Panel;
   const Data = ns.Data;
 
-  // ── Filter data by search query (ignores family filters — those
+  // ── Filter data by active country and search query (family filters
   //    are applied later in Markers.buildMarkers) ──
   function currentData() {
     const q = document
@@ -22,14 +22,25 @@ window.NeraMap = window.NeraMap || {};
       .value.trim()
       .toLowerCase();
     const allData = Data.getAll();
-    if (!q) return allData;
-    return allData.filter(function (l) {
+    const activeCountry = ns.CountryFilter
+      ? ns.CountryFilter.getActiveCountry()
+      : "ALL";
+
+    let filtered = allData;
+    if (activeCountry && activeCountry !== "ALL") {
+      filtered = filtered.filter(function (l) {
+        return l.country === activeCountry;
+      });
+    }
+
+    if (!q) return filtered;
+    return filtered.filter(function (l) {
       return (
         l.name.toLowerCase().includes(q) ||
         l.iso.toLowerCase().includes(q) ||
-        l.region.toLowerCase().includes(q) ||
-        l.family.toLowerCase().includes(q) ||
-        l.subfamily.toLowerCase().includes(q)
+        (l.region && l.region.toLowerCase().includes(q)) ||
+        (l.family && l.family.toLowerCase().includes(q)) ||
+        (l.subfamily && l.subfamily.toLowerCase().includes(q))
       );
     });
   }
@@ -74,17 +85,19 @@ window.NeraMap = window.NeraMap || {};
   function buildFilters(map) {
     const filtersEl = document.getElementById("filters");
     if (!filtersEl) return;
+    filtersEl.innerHTML = "";
 
     Object.keys(FAMILY_CONFIG).forEach(function (key) {
       const cfg = FAMILY_CONFIG[key];
       const btn = document.createElement("button");
-      btn.className = "filter-btn active";
+      btn.className = "filter-btn" + (Markers.isFilterActive ? (Markers.isFilterActive(key) ? " active" : "") : " active");
       btn.dataset.family = key;
       btn.innerHTML =
         '<span class="dot" style="background:' +
         cfg.color +
-        '"></span>' +
-        cfg.label;
+        '"></span><span class="family-label">' +
+        cfg.label +
+        '</span>';
 
       btn.addEventListener("click", function () {
         Markers.toggleFilter(key, currentData(), map);
@@ -104,7 +117,27 @@ window.NeraMap = window.NeraMap || {};
     input.addEventListener("input", function () {
       const results = currentData();
       Markers.buildMarkers(results, map);
-      fitMapToResults(results, map);
+      if (input.value.trim()) {
+        fitMapToResults(results, map);
+      } else {
+        const activeCountry = ns.CountryFilter
+          ? ns.CountryFilter.getActiveCountry()
+          : "ALL";
+        const cfg = ns.CountryFilter
+          ? ns.CountryFilter.getConfig(activeCountry)
+          : null;
+        if (cfg) {
+          if (activeCountry === "ALL") {
+            map.flyTo(cfg.center, cfg.zoom, { duration: 0.8 });
+          } else if (cfg.bounds) {
+            map.flyToBounds(cfg.bounds, {
+              padding: [50, 50],
+              maxZoom: 9,
+              duration: 0.8,
+            });
+          }
+        }
+      }
     });
   }
 
@@ -112,6 +145,12 @@ window.NeraMap = window.NeraMap || {};
   function init(map) {
     buildFilters(map);
     initSearch(map);
+
+    if (ns.I18n && typeof ns.I18n.subscribe === "function") {
+      ns.I18n.subscribe(function () {
+        buildFilters(map);
+      });
+    }
   }
 
   // ── Public API ──

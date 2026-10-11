@@ -1,0 +1,532 @@
+id,name,glottocode,severity,type,detail
+NG-0001,Jalaa,cent2045,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0002,Mawa (Nigeria),mawa1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0003,Defaka,defa1248,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0004,Gibanawa,giba1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0005,Barikanchi,bari1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0006,Shuwa-Zamani,shuw1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0007,Ruma,ruma1250,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0008,Dungu,dung1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0010,Nshi,nshi1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0011,Vono,vono1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0012,Tumi,tumi1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0013,Kaivi,kaiv1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0014,Tagdal,tagd1238,warn,outside_country,"coordinates (16.1908, 6.83992) not inside any ADM1 region"
+NG-0015,Tasawaq,tasa1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0015,Tasawaq,tasa1240,warn,outside_country,"coordinates (16.7814, 6.92037) not inside any ADM1 region"
+NG-0016,Dendi (Benin),dend1243,warn,outside_country,"coordinates (11.6682, 3.49109) not inside any ADM1 region"
+NG-0017,Zarma-Kaado,zarm1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0017,Zarma-Kaado,zarm1239,warn,outside_country,"coordinates (12.8554, 2.41173) not inside any ADM1 region"
+NG-0018,Kam,kamm1249,info,speakers_outdated,latest figure is from 1993
+NG-0019,Gade,gade1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0020,Ukaan,ukaa1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0021,Oko-Eni-Osayen,okoe1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0022,Tetserret,tets1235,warn,outside_country,"coordinates (14.973333, 5.699722) not inside any ADM1 region"
+NG-0023,Tahaggart Tamahaq,taha1241,warn,outside_country,"coordinates (22.5908, 8.73169) not inside any ADM1 region"
+NG-0024,Tedaga,teda1241,warn,outside_country,"coordinates (18.0426, 14.7717) not inside any ADM1 region"
+NG-0025,Southeast Ijo,sout2774,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0026,Izon,izon1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0027,Baa,kwaa1262,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0028,Ajiri,eloy1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0029,Ndunic,ahwa1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0030,Arigidi,arig1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0031,Ekpeye,ekpe1253,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0032,Ebira,ebir1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0033,Kutep,kute1248,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0034,Baissa Fali,bais1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0035,Tita,tita1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0036,Akpes,akpe1248,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0037,Borgu Fulfulde,borg1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0038,Western Niger Fulfulde,west2454,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0038,Western Niger Fulfulde,west2454,warn,outside_country,"coordinates (14.2471, -0.52004) not inside any ADM1 region"
+NG-0039,Sukur,suku1272,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0040,Jilbe,jilb1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0041,Tawallammat Tamajaq,tawa1286,warn,outside_country,"coordinates (13.9878, 4.47692) not inside any ADM1 region"
+NG-0042,Manga-Dagera Kanuri,mang1399,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0042,Manga-Dagera Kanuri,mang1399,warn,outside_country,"coordinates (13.557, 10.701) not inside any ADM1 region"
+NG-0043,Tarjumo,tarj1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0044,Nkoroo,nkor1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0045,Oruma,orum1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0046,Northwest Gbaya,nort2775,warn,outside_country,"coordinates (5.9503, 15.2569) not inside any ADM1 region"
+NG-0047,Mboi,mboi1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0048,Kaan,kaan1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0049,Kapya,kapy1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0050,Yukuben,yuku1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0051,Iku-Gora-Ankwa,ikug1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0052,Nungu,nung1292,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0053,Aninka,anin1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0054,Bu,buuu1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0055,Numana,numa1252,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0056,Ayu,ayuu1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0057,Toro,toro1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0058,Bo-Rukul,boru1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0059,Shall-Zwall,shal1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0060,Àhàn,ahan1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0061,Ayere,ayer1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0063,Ikwere,ikwe1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0064,Ogbah,ogba1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0065,Reshe,resh1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0067,Ogbronuagum,ogbr1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0068,Ukpet-Ehom,ukpe1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0069,Igede,iged1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0070,Yace,yace1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0071,Akpa,akpa1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0072,Fam,famm1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0073,Buru-Angwe,buru1299,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0074,Afudu,afud1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0075,Central-Eastern Niger Fulfulde,cent2018,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0075,Central-Eastern Niger Fulfulde,cent2018,warn,outside_country,"coordinates (15.0907, 8.43261) not inside any ADM1 region"
+NG-0080,Gwandara,gwan1268,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0081,Gudu,gudu1250,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0082,Ngwaba,ngwa1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0083,Mafa,mafa1239,warn,outside_country,"coordinates (10.943, 13.8181) not inside any ADM1 region"
+NG-0084,Hya,hyaa1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0085,Psikye,psik1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0086,Vemgo-Mabas,vemg1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0087,Lamang,lama1288,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0088,Hdi,hdii1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0089,Buduma,budu1265,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0089,Buduma,budu1265,warn,outside_country,"coordinates (13.0692, 14.4492) not inside any ADM1 region"
+NG-0091,Ibani,iban1261,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0092,Kalabari,kala1381,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0092,Kalabari,kala1381,warn,outside_country,"coordinates (4.53194, 6.69539) not inside any ADM1 region"
+NG-0093,Kirike,kiri1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0094,Biseni,bise1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0095,Okodia,okod1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0096,Bagirmi,bagi1246,info,speakers_outdated,latest figure is from 1983
+NG-0096,Bagirmi,bagi1246,warn,outside_country,"coordinates (11.52392, 14.769495) not inside any ADM1 region"
+NG-0097,Baatonum,baat1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0097,Baatonum,baat1238,warn,outside_country,"coordinates (9.63186, 2.99607) not inside any ADM1 region"
+NG-0098,Longuda,long1389,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0099,Lala-Roba,lala1261,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0100,Gengle-Kugama,kuga1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0101,Kumba,kumb1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0103,Irigwe,irig1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0104,Koro Nulu,koro1323,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0105,Bete (Yukubenic),bete1261,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0106,Lufu,lufu1237,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0107,Akum,akum1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0108,Ikulu,ikul1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0109,Kadara,kada1284,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0110,Ejuele,doka1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0111,Che,chee1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0112,Kaningdon-Nindem,kani1277,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0113,Kanufi,kanu1277,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0114,Sur,surr1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0115,Yangkam,yang1290,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0116,Akpondu,akpo1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0117,Arum,alum1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0118,Hasha,hash1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0119,Sambe,samb1307,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0120,Horom,horo1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0121,Fyam,fyam1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0122,Lijili,liji1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0123,Rjili,tanj1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0124,Eggon,eggo1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0125,Akye,akee1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0126,Eten,eten1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0128,Izi-Ezaa-Ikwo-Mgbo,izie1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0129,Ika,ikaa1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0130,Ukwuani-Aboh-Ndoni,ukwu1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0132,Cicipu,cici1237,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0133,Laru (Nigeria),laru1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0134,Eleme,elem1253,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0135,Baan,baan1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0136,Gokana,goka1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0137,Usaghade,usag1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0138,Kugbo,kugb1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0139,Ogbia,ogbi1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0140,Obulom-Ochichi,obul1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0141,Odual,odua1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0142,Abua,abua1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0143,Abureni,abur1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0144,Ogbogolo,ogbo1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0145,Korop,koro1304,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0146,Kiong,kion1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0147,Iyongiyong,bakp1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0148,Robambami,agoi1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0149,Deko-Dusanga,doko1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0150,Koro Zuba,koro1324,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0151,Asu (Nigeria),asun1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0152,Nupe-Nupe-Tako,nupe1254,info,speakers_outdated,latest figure is from 1990
+NG-0153,Gbagyi,gbag1258,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0154,Gbari,gbar1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0155,Etulo,etul1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0156,Kpan,kpan1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0157,Etkywan,etky1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0158,Tigon Mbembe,tigo1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0158,Tigon Mbembe,tigo1236,warn,outside_country,"coordinates (6.983995, 10.70849) not inside any ADM1 region"
+NG-0159,Ndoola,ndoo1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0160,Bekwarra,bekw1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0161,Mbe,mbee1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0162,Esimbi,esim1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0162,Esimbi,esim1238,warn,outside_country,"coordinates (6.50094, 9.86936) not inside any ADM1 region"
+NG-0163,Ugare,mesa1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0163,Ugare,mesa1245,warn,outside_country,"coordinates (6.32679, 9.8723) not inside any ADM1 region"
+NG-0164,Epie,epie1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0165,Uvbie,uvbi1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0166,Okpe (Southwestern Edo),okpe1250,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0167,Isoko,isok1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0168,Eruwa,eruw1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0170,Adamawa Fulfulde,adam1253,warn,outside_country,"coordinates (8.140326, 13.077338) not inside any ADM1 region"
+NG-0175,Belneng,beln1234,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0177,Mwaghavul,mwag1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0178,Tambas,tamb1267,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0179,Fyer,fyer1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0182,Mangar,mang1417,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0183,Kulere,kule1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0184,Jara,jara1274,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0186,Ga'anda,gaan1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0187,Hwana,hwan1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0188,Boga,boga1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0189,Bata,bata1314,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0190,Bacama,baca1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0191,Daba,nucl1683,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0191,Daba,nucl1683,warn,outside_country,"coordinates (10.3521, 13.6318) not inside any ADM1 region"
+NG-0192,Lagwan,lagw1237,warn,outside_country,"coordinates (11.5592, 14.9884) not inside any ADM1 region"
+NG-0193,Shanga,shan1282,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0194,Kyenga,kyen1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0195,Busa,busa1253,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0196,Boko (Benin),boko1266,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0196,Boko (Benin),boko1266,warn,outside_country,"coordinates (10.5189, 3.71771) not inside any ADM1 region"
+NG-0197,Bokobaru,boko1267,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0198,Ngambay,ngam1268,warn,outside_country,"coordinates (8.57051, 15.414) not inside any ADM1 region"
+NG-0200,Voro,voro1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0201,Bena (Nigeria),bena1260,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0202,Rang,rang1269,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0203,Pangseng,pang1286,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0204,Mumuye,nucl1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0205,Peere,peer1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0205,Peere,peer1241,warn,outside_country,"coordinates (7.82186, 12.2518) not inside any ADM1 region"
+NG-0206,Tha,thaa1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0208,Leelau,leel1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0209,Kyak,kyak1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0210,Burak,bura1271,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0211,Loo,looo1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0212,Mak (Nigeria),makn1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0213,Mághdì,magh1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0214,Kagoma,kago1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0215,Kamantan,kama1358,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0216,Nyankpa,yesk1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0217,Kyoli,cori1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0218,Shamang,sham1277,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0219,Kurmin Dangana,kurm1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0221,Kuturmi,kutu1262,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0222,Idon,idon1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0223,Mada (Nigeria),mada1282,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0224,Ninzo,ninz1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0225,Tiyaa,yaaa1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0226,Pye,peee1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0227,Tarok,taro1263,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0228,Cara,cara1270,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0229,Berom,bero1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0230,Pongu,pong1250,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0231,Fungwa,fung1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0232,Bauchi,bauc1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0233,Gurmana,gurm1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0234,Hungworo,hung1276,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0235,Damakawa,dama1268,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0236,C'lela,clel1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0237,Hun-Saare,huns1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0238,Basa (Nigeria),basa1282,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0239,Lopa,lopa1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0240,Cuba,cuba1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0241,Tee,teee1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0242,Khana,khan1278,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0243,Ilue,ilue1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0244,Okobo,okob1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0245,Efai,efai1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0246,Olulumo-Ikom,olul1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0247,Kupa,kupa1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0248,Kakanda,kaka1264,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0250,Alago,alag1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0251,Wannu,wann1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0252,Sama Mum,samb1311,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0253,Gaa,gaaa1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0254,Dong,dong1293,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0255,Denya,deny1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0255,Denya,deny1238,warn,outside_country,"coordinates (5.97237, 9.39989) not inside any ADM1 region"
+NG-0256,Bokyi,boky1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0257,Utugwang-Irungene-Afrike,putu1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0258,Bumaji,buma1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0259,Kulung (Nigeria),kulu1255,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0261,Ndoe,ndoe1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0262,Bitare,bita1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0263,Batu,batu1255,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0264,Ambo,ambo1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0265,Abon,abon1238,info,speakers_outdated,latest figure is from 1973
+NG-0266,Bukwen,bukw1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0267,Degema,dege1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0269,Ghotuo,ghot1243,info,speakers_outdated,latest figure is from 1994
+NG-0270,Esan,esan1238,info,speakers_outdated,latest figure is from 1994
+NG-0272,Uhami,uham1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0273,Iyayu,iyay1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0274,Ososo,osos1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0275,Okpamheri,okpa1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0276,Oloma,olom1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0280,Ajawa,ajaw1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0283,Jimi (Nigeria),jimi1255,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0284,Guruntum-Mbaaru,guru1271,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0285,Boghom,bogh1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0286,Cakfem-Mushere,cakf1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0287,Miship,mish1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0289,Montol,mont1280,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0290,Yiwom,yiwo1237,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0293,Duhwa,duhw1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0294,Mindat,mund1334,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0295,Nzanyi,nzan1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0295,Nzanyi,nzan1240,warn,outside_country,"coordinates (10.0666, 13.3343) not inside any ADM1 region"
+NG-0296,Holma,holm1250,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0297,Zizilivakan,zizi1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0298,Jimi (Cameroon),jimi1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0298,Jimi (Cameroon),jimi1254,warn,outside_country,"coordinates (10.251, 13.5258) not inside any ADM1 region"
+NG-0299,Kamwe,kamw1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0300,Kirya-Konzel,kiry1234,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0301,Marghi Central,marg1265,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0302,Bura-Pabir,bura1292,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0303,Cibak,ciba1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0304,Nggwahyi,nggw1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0305,Putai,puta1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0306,Dghwede,dghw1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0307,Gvoko,gvok1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0308,Glavda,glav1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0309,Afade,afad1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0309,Afade,afad1236,warn,outside_country,"coordinates (12.0551, 14.6343) not inside any ADM1 region"
+NG-0310,Mpade,mpad1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0310,Mpade,mpad1242,warn,outside_country,"coordinates (12.561391, 14.446893) not inside any ADM1 region"
+NG-0311,Ngala of Lake Chad,ngal1301,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0312,Mbay,mbay1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0312,Mbay,mbay1241,warn,outside_country,"coordinates (8.23066, 15.7328) not inside any ADM1 region"
+NG-0314,Tso,tsoo1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0315,Teme,teme1252,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0316,Yotti,yott1234,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0317,Bali (Nigeria),bali1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0318,Kpasam,kpas1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0319,Pana (Central African Republic),pana1293,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0319,Pana (Central African Republic),pana1293,warn,outside_country,"coordinates (7.10191, 15.64243) not inside any ADM1 region"
+NG-0320,Mingang Doso,ming1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0321,Dza,dzaa1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0322,Ganang,gana1270,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0323,Izere,izer1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0324,Firan,fira1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0325,Cen,cenn1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0328,Gwara,gwar1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0329,Dũya,idun1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0330,Ashe,ashe1269,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0331,Begbere-Ejar,begb1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0332,Zhire,zhir1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0333,Shang,shan1278,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0334,Kadung,vagh1248,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0335,Bijim,biji1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0336,Ede Cabe,edec1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0336,Ede Cabe,edec1238,warn,outside_country,"coordinates (7.78176, 2.48128) not inside any ADM1 region"
+NG-0337,Baangi,baan1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0338,Tsuvadi,tsuv1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0339,Salka-Tsishingini,tsis1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0340,Tsikimba,tsik1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0341,Western-Kambari-Cishingini,cish1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0342,Yara,cind1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0343,Gwamhi-Wuri,gwam1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0344,Ut-Main,kagf1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0345,Basa-Gurmana,basa1281,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0346,Piti,piti1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0347,Atsam,atsa1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0348,Amo,amoo1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0349,Etebi,eteb1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0350,Ekit,ekit1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0352,Ibino,ibin1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0353,Iko,ikoo1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0354,Ito,itoo1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0355,Lokaa,loka1252,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0356,Cross River Mbembe,cros1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0357,Ubaghara,ubag1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0358,Oring,orin1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0359,Dibo,dibo1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0360,Idoma,idom1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0361,Agatu,agat1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0362,Wãpha,waph1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0363,Jan-Awei,jana1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0364,Wapan,wapa1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0365,Shoo-Minda-Nye,shoo1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0366,Jiru,jiru1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0367,Como Karim,como1258,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0368,Lamja-Dengsa-Tola,lamj1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0369,Jirim,diri1253,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0370,Viti,viti1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0371,Lamnso',lamn1239,warn,outside_country,"coordinates (6.19194, 10.84295) not inside any ADM1 region"
+NG-0372,Ubang,uban1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0373,Ukpe-Bayobiri,ukpe1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0374,Alege,aleg1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0375,Bete-Bendi,bete1262,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0376,Obanliku,oban1244,info,speakers_outdated,latest figure is from 1989
+NG-0377,Bile,bile1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0378,Mbula-Bwazza,mbul1260,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0379,Mama,mama1272,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0380,Labir,labi1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0381,Shiki,shik1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0382,Dulbu,dulb1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0383,Ejagham,ejag1239,warn,outside_country,"coordinates (5.54442, 8.90959) not inside any ADM1 region"
+NG-0384,Iceve-Maci,icev1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0385,Yekhee,yekh1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0387,Emai-Iuleha-Ora,emai1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0388,Ikhin-Arokho,ikhi1234,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0389,Ukue,ukue1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0390,Ehueun,ehue1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0391,Enwan (Edo State),enwa1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0392,Ikpeshi,ikpe1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0393,Ivbie North-Okpela-Arhe,ivbi1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0394,Igwe,igwe1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0395,Sasaru,sasa1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0396,Okpe (Northwestern Edo),okpe1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0397,Akuku,akuk1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0398,Teshenawa,tesh1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0399,Auyokawa,auyo1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0402,Dokshi,lush1256,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0403,Dyarim,dyar1234,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0405,Zari,zari1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0406,Gyaazi,nucl1692,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0407,Bu (Zaranda),zara1252,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0408,Luri,luri1256,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0409,Ju,juuu1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0410,Kir-Balar,kirb1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0411,Mangas,mang1416,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0412,Jakattoe,jort1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0413,Pan,kofy1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0414,Nteng,nucl1698,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0415,Tal,tall1250,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0417,Maaka,maak1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0418,Nyam,nyam1285,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0419,Bure,bure1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0420,Kholok,khol1240,info,speakers_outdated,latest figure is from 1977
+NG-0421,Gude,gude1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0422,Fali,fali1285,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0423,Marghi South,marg1266,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0424,Huba,huba1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0425,Guduf-Gava,gudu1252,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0426,Cineni,cine1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0427,Malgwa,malg1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0428,Wandala,wand1278,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0429,Waka,waka1275,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0430,Yendang,yend1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0431,Samba Leko,samb1305,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0432,Gimme,gimm1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0433,Gimnime,gimn1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0434,Koma Ndera,koma1266,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0435,Vere Kaadam,vere1252,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0436,Mom Jango,momj1237,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0437,Ede Nago,eden1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0437,Ede Nago,eden1244,warn,outside_country,"coordinates (6.75763, 2.64908) not inside any ADM1 region"
+NG-0438,Rogo,rogo1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0439,Basa-Gumna,basa1280,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0440,Bassa-Kontagora,bass1259,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0441,Kizamani,kiza1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0442,Bina (Nigeria),bina1270,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0443,Kinuku,kinu1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0444,Kurama,kura1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0445,Gbiri-Niragu,gbir1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0446,Kono (Nigeria),kono1264,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0447,Sheni-Ziriya,shen1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0448,Lere,lere1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0449,Oro,oroo1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0450,Ebughu,ebug1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0451,Enwan (Akwa Ibom State),enwa1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0452,Uda,udaa1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0453,Anaang,anaa1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0454,Idere,ider1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0455,Eki,ekii1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0456,Nkari,nkar1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0457,Nkukoli,nkuk1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0458,Lubila,lubi1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0459,Legbo,legb1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0460,Umon,umon1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0461,Agwagwune,agwa1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0462,Kohumono,kohu1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0463,Kukele,kuke1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0464,Uzekwe,uzek1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0465,Kami (Nigeria),kami1258,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0466,Gupa,gupa1248,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0467,Jukun Takum,juku1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0468,Jibu,jibu1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0469,Hõne,hone1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0470,Jiba,jiba1237,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0471,Njanga,njan1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0471,Njanga,njan1240,warn,outside_country,"coordinates (6.41, 11.51) not inside any ADM1 region"
+NG-0472,Dzodinka,dzod1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0472,Dzodinka,dzod1238,warn,outside_country,"coordinates (6.89005, 10.7633) not inside any ADM1 region"
+NG-0473,Limbum,limb1268,warn,outside_country,"coordinates (6.49888, 10.78224) not inside any ADM1 region"
+NG-0474,Yamba,yamb1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0474,Yamba,yamb1251,warn,outside_country,"coordinates (6.535505, 11.07711) not inside any ADM1 region"
+NG-0476,Jarawa (Nigeria),jara1263,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0478,Evant,evan1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0478,Evant,evan1238,warn,outside_country,"coordinates (6.34906, 9.46432) not inside any ADM1 region"
+NG-0480,Tulai,nucl1693,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0481,Chaari,dans1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0482,Buli (Bauchi State),buli1260,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0483,Pesse,polc1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0484,Zangwal,zang1255,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0485,Tala,tala1295,info,speakers_outdated,latest figure is from 1993
+NG-0486,Koenoem,koen1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0487,Pyapun,pyap1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0491,Galambu,gala1264,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0492,Chadian Arabic,chad1249,warn,outside_country,"coordinates (14.67, 13.5) not inside any ADM1 region"
+NG-0498,Wom (Nigeria),womn1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0499,Nyong,nyon1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0500,Ulukwumi,uluk1257,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0501,Eastern Acipa,east2403,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0502,Shama-Sambuga,sham1278,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0503,Rishiwa,rish1234,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0504,Vori,suru1258,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0505,Shau,shau1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0506,Gyem,gyem1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0507,Iguta,igut1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0508,Tunzu,tunz1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0509,Janji,janj1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0510,Gamo-Ningi,gamo1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0511,Kudu-Camo,kudu1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0512,Ibibio,ibib1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0514,Itu Mbon Uzo,itum1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0515,Ibuoro,ibuo1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0516,Lenyima,leny1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0517,Leyigha,leyi1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0518,Somyev,somy1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0519,Tep,tepp1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0520,Kwaja-Ndaktup,kwaj1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0520,Kwaja-Ndaktup,kwaj1242,warn,outside_country,"coordinates (6.650434, 11.06) not inside any ADM1 region"
+NG-0521,Mashi (Nigeria),mash1269,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0522,Efutop,efut1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0523,Nde-Nsele-Nta,nden1250,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0524,Otank,otan1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0525,Tiv,tivv1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0526,Iyive,iyiv1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0528,Dir-Nyamzak-Mbarimi,lund1276,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0529,Kwaami,kwaa1269,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0530,Kutto,kutt1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0531,Geruma,geru1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0532,Gera,gera1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0533,Deno,deno1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0534,Kubi,kubi1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0536,Izora,izor1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0537,Jere,jere1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0538,Panawa,pana1298,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0539,Western Mambila,nige1255,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0540,Mbongno,mbon1253,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0541,Wawa,wawa1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0541,Wawa,wawa1246,warn,outside_country,"coordinates (6.68974, 11.7802) not inside any ADM1 region"
+NG-0542,Vute,vute1244,warn,outside_country,"coordinates (6.13603, 11.8839) not inside any ADM1 region"
+NG-0543,Kpati,kpat1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0544,Southern Mfumte,mfum1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0544,Southern Mfumte,mfum1238,warn,outside_country,"coordinates (6.6, 10.936386) not inside any ADM1 region"
+NG-0545,Isu (Menchum Division),isum1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0545,Isu (Menchum Division),isum1240,warn,outside_country,"coordinates (6.63731, 9.96577) not inside any ADM1 region"
+NG-0546,Ekajuk,ekaj1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0547,Nnam,nnam1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0548,Nkem-Nkum,nkem1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0550,Daza,daza1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0551,Giiwo,giiw1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0553,Sanga (Nigeria),sang1329,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0554,Lemoro,lemo1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0555,Donga Mambila,came1252,warn,outside_country,"coordinates (6.43829, 11.41953) not inside any ADM1 region"
+NG-0556,Njerep,njer1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0557,Mvano,mvan1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0558,Ndunda,ndun1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+NG-0560,Bole,nucl1695,warn,speakers_missing,no speaker count in Wikidata or reference atlas

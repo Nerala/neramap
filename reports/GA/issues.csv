@@ -1,0 +1,60 @@
+id,name,glottocode,severity,type,detail
+GA-0001,Seki,seki1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0001,Seki,seki1238,warn,outside_country,"coordinates (1.52302, 9.79206) not inside any ADM1 region"
+GA-0002,Mwesa,mwes1234,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0003,Myene,myen1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0004,Mbangwe,mban1268,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0006,Benga,beng1282,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0006,Benga,beng1282,warn,outside_country,"coordinates (1.075766, 9.600739) not inside any ADM1 region"
+GA-0007,Sighu,sigh1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0008,Osamayi,osam1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0009,Baka (Cameroon),baka1272,warn,outside_country,"coordinates (2.16013, 13.7804) not inside any ADM1 region"
+GA-0010,Bekwil,bekw1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0010,Bekwil,bekw1242,warn,outside_country,"coordinates (1.71801, 14.6527) not inside any ADM1 region"
+GA-0011,Kélé,kele1257,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0012,Ngom,ngom1270,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0013,Tombidi,tomb1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0014,Ndambomo,ndam1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0015,Sake,sake1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0016,Yasa,yasa1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0016,Yasa,yasa1242,warn,outside_country,"coordinates (2.06043, 10.678) not inside any ADM1 region"
+GA-0017,Wumbvu,wumb1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0017,Wumbvu,wumb1242,warn,outside_country,"coordinates (-2.39234, 12.264) not inside any ADM1 region"
+GA-0018,Ndasa,ndas1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0018,Ndasa,ndas1238,warn,outside_country,"coordinates (-2.449015, 13.369465) not inside any ADM1 region"
+GA-0019,Mahongwe,maho1248,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0020,Kota (Gabon),kota1274,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0021,Kande,kand1300,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0022,Tsogo,tsog1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0023,Viya,eviy1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0024,Bubi,bubi1250,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0025,Shiwa,shiw1234,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0026,Simba,simb1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0027,Pinji,pinj1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0028,Teke-Kukuya,teke1280,warn,outside_country,"coordinates (-2.27122, 14.4407) not inside any ADM1 region"
+GA-0029,Teke-Tsaayi,teke1281,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0029,Teke-Tsaayi,teke1281,warn,outside_country,"coordinates (-2.98028, 13.8603) not inside any ADM1 region"
+GA-0030,Latege,teke1275,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0030,Latege,teke1275,warn,outside_country,"coordinates (-1.61688, 14.8664) not inside any ADM1 region"
+GA-0031,Tchitchege,tchi1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0032,Vili of Ngounie,vili1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0033,Ndumu,ndum1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0034,Kaningi,kani1279,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0035,Mbere-Mbamba,mber1257,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0036,Njebi,njeb1242,warn,outside_country,"coordinates (-2.18115, 12.7063) not inside any ADM1 region"
+GA-0037,Tsaangi,tsaa1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0037,Tsaangi,tsaa1242,warn,outside_country,"coordinates (-2.29245, 12.7581) not inside any ADM1 region"
+GA-0038,Wandji,wand1266,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0039,Duma,duma1253,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0040,Vili,vili1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0040,Vili,vili1238,warn,outside_country,"coordinates (-4.06716, 11.3804) not inside any ADM1 region"
+GA-0041,Ngubi,ngub1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0042,Lumbu,lumb1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0043,Bwisi,bwis1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0043,Bwisi,bwis1242,warn,outside_country,"coordinates (-3.23686, 11.9595) not inside any ADM1 region"
+GA-0044,Punu,punu1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0044,Punu,punu1239,warn,outside_country,"coordinates (-2.67362, 11.6714) not inside any ADM1 region"
+GA-0045,Vumbu,vumb1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0046,Sangu (Gabon),sang1333,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0047,Barama,bara1362,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+GA-0048,Sira,sira1266,warn,speakers_missing,no speaker count in Wikidata or reference atlas

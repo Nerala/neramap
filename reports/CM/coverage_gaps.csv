@@ -1,0 +1,66 @@
+glottocode,name,iso,family,lat,lng,vitality,speakers,countries
+abon1238,Abon,abo,Niger-Congo,6.90621,10.8769,vulnerable,1000,CM;NG
+ambe1247,Ambele,ael,Niger-Congo,5.94043,9.62028,vulnerable,,CM
+aton1242,Atong,ato,Niger-Congo,6.03539,9.72121,vulnerable,,CM
+awin1248,Awing,azo,Niger-Congo,5.88362,10.264,stable,,CM
+baaz1234,Baazem,,Niger-Congo,6.80235,9.97124,stable,,CM
+baka1273,Bakaka,bqz,Niger-Congo,4.79991,9.80402,vulnerable,,CM
+batu1255,Batu,btu,Niger-Congo,6.81588,10.9377,stable,,CM;NG
+beez1238,Beezen,bnz,Niger-Congo,6.81552,10.109,endangered,,CM
+beti1250,Beti (Cameroon),btb,Bookkeeping,3.22265,11.6896,,,CM
+bubi1249,Bubia,bbx,Bookkeeping,4.02178,9.22304,critical,,CM
+bukw1238,Bukwen,buz,Niger-Congo,6.9415,10.2006,vulnerable,,CM;NG
+cent2312,Central Mfumte,,Niger-Congo,6.67876,10.967982,stable,,CM
+dghw1239,Dghwede,dgh,Afro-Asiatic,11.05751,13.77847,vulnerable,,CM;NG
+efai1241,Efai,efa,Niger-Congo,4.60447,8.27625,stable,,CM;NG
+efik1245,Efik,efi,Niger-Congo,4.89379,8.38121,stable,2693000,CM;NG
+ejag1239,Ejagham,etu,Niger-Congo,5.54442,8.90959,stable,116700,CM;NG
+evan1238,Evant,bzz,Niger-Congo,6.34906,9.46432,vulnerable,,CM;NG
+ewon1240,Ewondo Populaire,,Creole,,,,,CM
+fali1285,Fali,fli,Afro-Asiatic,10.5419,13.4087,stable,,CM;NG
+fang1248,Fang (Cameroon),fak,Niger-Congo,6.54384,10.319,endangered,,CM
+fioo1234,Fio,,Niger-Congo,6.31256,10.2936,critical,,CM
+geya1234,Gey,guv,Bookkeeping,9.37513,13.5809,,,CM
+gudu1252,Guduf-Gava,gdf,Afro-Asiatic,11.1057,13.7893,vulnerable,,CM;NG
+gund1247,Gundi,gdi,Niger-Congo,3.68861,17.30096,stable,,CF;CM
+gvok1239,Gvoko,ngs,Afro-Asiatic,10.9918,13.7537,stable,,CM;NG
+gyel1242,Gyele,gyi,Niger-Congo,2.47457,10.2493,endangered,,CM;GQ
+haus1257,Hausa,hau,Afro-Asiatic,11.1513,8.7804,stable,43900000,BF;BJ;CM;NE;NG;TD
+nige1253,Hausa States Fulfulde,fuv,Niger-Congo,10.9972,11.1188,stable,14500000,CM;NG;TD
+herd1236,Herde,hed,Afro-Asiatic,9.14343,14.9267,stable,,CM;TD
+isum1240,Isu (Menchum Division),isu,Niger-Congo,6.63731,9.96577,vulnerable,,CM;NG
+jilb1238,Jilbe,jie,Afro-Asiatic,11.7992,14.5794,endangered,,CM;NG
+jimi1254,Jimi (Cameroon),jim,Afro-Asiatic,10.251,13.5258,endangered,,CM;NG
+juku1254,Jukun Takum,jbu,Niger-Congo,7.20236,10.2576,stable,,CM;NG
+kamw1239,Kamwe,hig,Afro-Asiatic,10.646,13.5136,stable,,CM;NG
+kapy1238,Kapya,klo,Niger-Congo,7.03256,10.0979,endangered,,CM;NG
+kara1478,Karang,kzr,Niger-Congo,8.01727,15.2114,vulnerable,,CM;TD
+kolb1240,Kolbila,klc,Niger-Congo,8.26797,13.2707,endangered,,CM
+kukk1239,Kuk,kfn,Niger-Congo,6.43762,10.1841,endangered,,CM
+kung1260,Kung,kfl,Niger-Congo,6.53881,10.2073,endangered,,CM
+kute1248,Kutep,kub,Niger-Congo,7.07479,10.0916,stable,,CM;NG
+kwak1266,Kwakum,kwu,Niger-Congo,4.34393,13.6446,stable,,CM
+limb1268,Limbum,lmp,Niger-Congo,6.49888,10.78224,stable,,CM;NG
+mbee1250,Mbe',mtk,Niger-Congo,6.25838,11.0906,vulnerable,,CM
+mbes1239,Mbessa,emz,Niger-Congo,6.31,10.407,stable,,CM
+mbon1252,Mbonga,xmb,Niger-Congo,5.7517,13.6471,endangered,,CM
+mbuk1244,Mbuk,bpc,Niger-Congo,6.535575,10.415141,vulnerable,,CM
+molo1266,Moloko,mlw,Afro-Asiatic,10.7933,14.2521,stable,8500,CM
+mund1328,Mundabli-Mufu,boe,Niger-Congo,6.59969,10.2704,endangered,,CM
+ndze1235,Ndzerem,,Niger-Congo,6.07,10.66,vulnerable,,CM
+ngon1275,Ngong,nnx,Bookkeeping,8.78874,13.42855,critical,,CM
+ngun1270,Ngundi,ndn,Niger-Congo,3.02108,16.21457,vulnerable,,CF;CG;CM
+nimb1256,Nimbari,nmr,Niger-Congo,9.67581,13.8266,extinct,,CM
+nort3260,Northern Alantika Vere,,Niger-Congo,8.829761,12.850757,stable,,CM
+oblo1238,Oblo,obl,Niger-Congo,8.18943,14.29,extinct,,CM
+olib1234,Oli-Bidiman,,Niger-Congo,4.33,9.8,vulnerable,,CM
+samb1311,Sama Mum,ccg,Niger-Congo,8.06905,11.7077,stable,,CM;NG
+seki1238,Seki,syi,Niger-Congo,1.52302,9.79206,vulnerable,,CM;GA;GQ
+somy1238,Somyev,kgt,Niger-Congo,6.90525,11.4826,critical,,CM;NG
+sout2782,South Fali,fal,Niger-Congo,9.51408,13.6164,stable,,CM
+sout2785,Southwest Gbaya,gso,Niger-Congo,4.70037,14.9569,stable,,CF;CM
+tivv1240,Tiv,tiv,Niger-Congo,6.88039,9.26287,stable,,CM;NG
+tune1241,Tunen (Retired),baz,Bookkeeping,4.75,10.67,,35300,CM
+nige1255,Western Mambila,mzk,Niger-Congo,6.69736,11.3161,stable,,CM;NG
+yaka1272,Yaka (Central African Republic),axk,Niger-Congo,3.6515,17.2713,vulnerable,,CF;CG;CM
+zuma1239,Zumaya,zuy,Afro-Asiatic,10.55798,14.44451,extinct,,CM

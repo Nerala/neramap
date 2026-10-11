@@ -1,0 +1,27 @@
+{
+  "records": 48,
+  "matched": "48/48 (100%)",
+  "with_iso": "43/48 (90%)",
+  "with_speakers": "4/48 (8%)",
+  "with_vitality": "48/48 (100%)",
+  "with_wikipedia": "45/48 (94%)",
+  "with_wals": "10/48 (21%)",
+  "vitality": {
+    "vulnerable": 13,
+    "stable": 20,
+    "critical": 5,
+    "endangered": 10
+  },
+  "families": {
+    "Niger-Congo": 48
+  },
+  "severity": {
+    "warn": 59
+  },
+  "issue_types": {
+    "speakers_missing": 44,
+    "outside_country": 15
+  },
+  "coverage_gaps": 1,
+  "generated": "2026-10-09T16:54:08"
+}

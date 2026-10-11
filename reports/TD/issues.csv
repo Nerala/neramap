@@ -1,0 +1,149 @@
+id,name,glottocode,severity,type,detail
+TD-0002,Mimi-Gaudefroy,mimi1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0003,Kujarge,kuja1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0004,Mararit,mara1396,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0005,Mimi-Nachtigal,mimi1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0006,Amdang,amda1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0007,Fur,furr1244,warn,outside_country,"coordinates (12.0455, 23.6401) not inside any ADM1 region"
+TD-0008,Sinyar,siny1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0008,Sinyar,siny1243,warn,outside_country,"coordinates (12.1895, 22.5278) not inside any ADM1 region"
+TD-0009,Turku-Bongor Pidgin Arabic,turk1244,info,vitality_unknown,no AES rating in Glottolog
+TD-0009,Turku-Bongor Pidgin Arabic,turk1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0010,Dar Sila Daju,dars1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0011,Dar Daju Daju,dard1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0013,Assangori,assa1269,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0013,Assangori,assa1269,warn,outside_country,"coordinates (13.9592, 22.6393) not inside any ADM1 region"
+TD-0014,Tama (Chad),tama1331,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0015,Dazaga,daza1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0016,Tedaga,teda1241,warn,outside_country,"coordinates (18.0426, 14.7717) not inside any ADM1 region"
+TD-0017,Kibet,kibe1241,info,speakers_outdated,latest figure is from 1983
+TD-0018,Runga,rung1258,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0019,Day,dayy1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0020,Mesme,mesm1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0022,Gidar,gida1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0022,Gidar,gida1247,warn,outside_country,"coordinates (9.874715, 14.07845) not inside any ADM1 region"
+TD-0023,Kanembu,kane1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0024,Massalat,mass1262,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0025,Masalit,nucl1440,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0026,Surbakhal,surb1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0027,Kendeje,kend1253,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0028,Marfa,marf1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0030,Karanga,kara1484,info,speakers_outdated,latest figure is from 1999
+TD-0031,Lutos,luto1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0032,Kim,kimm1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0033,Goundo,goun1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0034,Besme,besm1235,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0035,Central-Eastern Niger Fulfulde,cent2018,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0035,Central-Eastern Niger Fulfulde,cent2018,warn,outside_country,"coordinates (15.0907, 8.43261) not inside any ADM1 region"
+TD-0036,Hausa States Fulfulde,nige1253,warn,outside_country,"coordinates (10.9972, 11.1188) not inside any ADM1 region"
+TD-0037,Peve,peve1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0038,Masana,masa1322,warn,outside_country,"coordinates (10.0606, 15.4748) not inside any ADM1 region"
+TD-0039,Gizey,gize1234,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0039,Gizey,gize1234,warn,outside_country,"coordinates (10.023278, 15.269103) not inside any ADM1 region"
+TD-0040,Ham,hama1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0042,Marba,marb1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0043,Kwang,kwan1285,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0044,Kera,kera1255,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0045,Gadang,gada1262,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0046,Mawa (Chad),mawa1270,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0047,Ubi,ubii1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0048,Barain,bare1279,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0049,Jalking,saka1296,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0050,Hausa,haus1257,warn,outside_country,"coordinates (11.1513, 8.7804) not inside any ADM1 region"
+TD-0051,Muskum,musk1256,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0052,Buduma,budu1265,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0052,Buduma,budu1265,warn,outside_country,"coordinates (13.0692, 14.4492) not inside any ADM1 region"
+TD-0053,Tumari Kanuri,tuma1248,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0053,Tumari Kanuri,tuma1248,warn,outside_country,"coordinates (14.2584, 13.1571) not inside any ADM1 region"
+TD-0054,Central Kanuri,cent2050,warn,outside_country,"coordinates (11.8, 13.13) not inside any ADM1 region"
+TD-0055,Kenga,keng1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0056,Bagirmi,bagi1246,info,speakers_outdated,latest figure is from 1983
+TD-0056,Bagirmi,bagi1246,warn,outside_country,"coordinates (11.52392, 14.769495) not inside any ADM1 region"
+TD-0057,Tunia,tuni1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0058,Kuo,kuoo1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0059,Adamawa Fulfulde,adam1253,warn,outside_country,"coordinates (8.140326, 13.077338) not inside any ADM1 region"
+TD-0060,Bagirmi Fulfulde,bagi1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0061,Herde,herd1236,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0062,Ngete,nget1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0063,Lele (Chad),lele1276,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0064,Nancere,nanc1253,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0065,Tobanga,toba1280,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0066,Kabalai,kaba1292,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0067,Mabire,mabi1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0068,Kajakse,kaja1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0070,Mubi,mubi1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0071,Masmaje,masm1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0072,Mbara (Chad),mbar1260,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0073,Musgu,musg1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0074,Mser,mser1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0074,Mser,mser1242,warn,outside_country,"coordinates (11.9765, 15.0373) not inside any ADM1 region"
+TD-0075,Lagwan,lagw1237,warn,outside_country,"coordinates (11.5592, 14.9884) not inside any ADM1 region"
+TD-0076,Jina,jina1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0076,Jina,jina1244,warn,outside_country,"coordinates (11.3555, 14.9611) not inside any ADM1 region"
+TD-0077,Majera,maje1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0077,Majera,maje1243,warn,outside_country,"coordinates (11.1433, 15.044) not inside any ADM1 region"
+TD-0078,Standard Arabic,stan1318,warn,outside_country,"coordinates (27.9625, 43.8525) not inside any ADM1 region"
+TD-0079,Dissa-Canton Mufa,disa1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0080,Kulfa,kulf1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0082,Horo,horo1247,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0083,Gulay,gula1268,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0084,Sar,sarr1246,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0085,Jaya,jaya1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0086,Bolgo,bolg1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0087,Koke,koke1240,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0088,Bon Gula,bong1282,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0089,Niellim,niel1243,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0090,Noy,noyy1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0091,Mambai,mamb1294,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0091,Mambai,mamb1294,warn,outside_country,"coordinates (9.6121, 14.0013) not inside any ADM1 region"
+TD-0092,Tupuri,tupu1244,warn,outside_country,"coordinates (10.0144, 14.8697) not inside any ADM1 region"
+TD-0093,Karang,kara1478,warn,outside_country,"coordinates (8.01727, 15.2114) not inside any ADM1 region"
+TD-0095,Kimre,kimr1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0096,Gabri,gabr1253,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0097,Sarua,saru1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0098,Somrai,somr1248,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0099,Ndam,ndam1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0100,Tumak,tuma1260,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0101,Mire,mire1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0102,Sokoro,soko1263,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0103,Tamki,tamk1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0104,Saba,saba1276,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0105,Boor,boor1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0106,Miltu,milt1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0107,Dangaleat,dang1274,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0109,Migaama,miga1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0110,Birgit,birg1239,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0111,Mogum,mogu1251,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0112,Toram,tora1267,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0113,Maslam,masl1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0113,Maslam,masl1241,warn,outside_country,"coordinates (12.1918, 14.8873) not inside any ADM1 region"
+TD-0114,Mpade,mpad1242,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0114,Mpade,mpad1242,warn,outside_country,"coordinates (12.561391, 14.446893) not inside any ADM1 region"
+TD-0115,Malgbe,malg1250,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0115,Malgbe,malg1250,warn,outside_country,"coordinates (12.5342, 14.8475) not inside any ADM1 region"
+TD-0116,Sara Kaba Náà,sara1321,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0117,Sara Kaba,sara1319,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0117,Sara Kaba,sara1319,warn,outside_country,"coordinates (10.5376, 22.1637) not inside any ADM1 region"
+TD-0118,Sara Kaba Deme,sara1322,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0119,Laka (Chad),laka1254,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0120,Kaba,kaba1281,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0121,Mango,mang1398,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0122,Gor,gorr1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0123,Nangnda,bedj1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0124,Mbay,mbay1241,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0125,Ngam,ngam1269,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0126,Dagba,dagb1248,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0127,Morom,moro1281,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0128,Gula (Chad),gula1269,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0130,Berakou,bera1261,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0131,Zan Gula,zang1249,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0132,Bua,buaa1245,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0133,Kawaway,kawa1291,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0135,Pana (Central African Republic),pana1293,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0135,Pana (Central African Republic),pana1293,warn,outside_country,"coordinates (7.10191, 15.64243) not inside any ADM1 region"
+TD-0136,Jonkor Bourmataguil,jonk1238,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0137,Gula Iro,gula1265,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0138,Fania,fani1244,warn,speakers_missing,no speaker count in Wikidata or reference atlas
+TD-0139,Sango,sang1328,warn,outside_country,"coordinates (6.78584, 20.1702) not inside any ADM1 region"
+TD-0140,Chadian Arabic,chad1249,warn,outside_country,"coordinates (14.67, 13.5) not inside any ADM1 region"
+TD-0141,Sudanese Arabic,suda1236,warn,outside_country,"coordinates (17.8021, 33.3179) not inside any ADM1 region"

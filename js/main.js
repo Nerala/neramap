@@ -22,16 +22,35 @@ window.NeraMap = window.NeraMap || {};
     const zoomHint = document.getElementById("zoom-hint");
     if (!zoomHint) return;
 
-    map.on("zoomend", function () {
-      zoomHint.textContent =
-        map.getZoom() >= 9
-          ? "📍 Cliquez sur un marqueur pour les détails"
-          : "🔍 Zoomez pour explorer les clusters";
-    });
+    function updateHint() {
+      if (ns.I18n && typeof ns.I18n.t === "function") {
+        zoomHint.textContent =
+          map.getZoom() >= 9
+            ? ns.I18n.t("hints.zoomHintMarker")
+            : ns.I18n.t("hints.zoomHintClusters");
+      } else {
+        zoomHint.textContent =
+          map.getZoom() >= 9
+            ? "Click on a marker for details"
+            : "Zoom in to explore clusters";
+      }
+    }
+
+    map.on("zoomend", updateHint);
+    updateHint();
+
+    if (ns.I18n && typeof ns.I18n.subscribe === "function") {
+      ns.I18n.subscribe(updateHint);
+    }
   }
 
   // ── Boot ──
   function boot() {
+    // 0. Initialize i18n system first
+    if (ns.I18n) {
+      ns.I18n.init();
+    }
+
     // 1. Register service worker (async, fire-and-forget)
     if (ns.TileCache) {
       ns.TileCache.registerServiceWorker();
@@ -48,14 +67,21 @@ window.NeraMap = window.NeraMap || {};
       ns.Panel.init();
     }
 
+    // 4.5 Initialize Country Filter
+    if (ns.CountryFilter) {
+      ns.CountryFilter.init(map);
+    }
+
     // 5. Build filters & wire search
     if (ns.SearchFilters) {
       ns.SearchFilters.init(map);
     }
 
-    // 6. Build initial markers with all data
-    const allData = ns.Data.getAll();
-    ns.Markers.buildMarkers(allData, map);
+    // 6. Build initial markers with active scope data
+    const initialData = ns.SearchFilters
+      ? ns.SearchFilters.currentData()
+      : ns.Data.getAll();
+    ns.Markers.buildMarkers(initialData, map);
 
     // 7. Add cluster group to map
     map.addLayer(ns.Markers.getClusterGroup());
@@ -64,6 +90,16 @@ window.NeraMap = window.NeraMap || {};
     map.on("click", function () {
       if (ns.Panel) ns.Panel.close();
     });
+
+    // 8.5 Initialize Voronoi spatial layer
+    if (ns.VizVoronoi) {
+      ns.VizVoronoi.init(map);
+    }
+
+    // 8.6 Initialize Viz Studio orchestrator
+    if (ns.VizStudio) {
+      ns.VizStudio.init();
+    }
 
     // 9. Zoom hint
     initZoomHint(map);

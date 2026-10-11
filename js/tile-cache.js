@@ -31,11 +31,16 @@ window.NeraMap = window.NeraMap || {};
     const cfg = ns.MAP_VIEWS[viewKey];
     if (!cfg) return null;
 
-    return L.tileLayer(cfg.url, {
+    const options = {
       attribution: cfg.attribution,
-      subdomains: cfg.subdomains,
       maxZoom: cfg.maxZoom,
-    });
+    };
+
+    if (cfg.subdomains) {
+      options.subdomains = cfg.subdomains;
+    }
+
+    return L.tileLayer(cfg.url, options);
   }
 
   // ── Public API ────────────────────────────────────────────────────

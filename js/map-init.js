@@ -83,6 +83,13 @@ window.NeraMap = window.NeraMap || {};
     const container = document.getElementById("view-switcher");
     if (!container) return;
 
+    // Keep any special buttons like Voronoi toggle if present
+    const extraButtons = Array.from(container.children).filter(function (child) {
+      return !child.classList.contains("view-btn") || child.id === "voronoi-toggle-btn";
+    });
+
+    container.innerHTML = "";
+
     const viewsToDisplay = isMobileScreen()
       ? getMobileAvailableViews()
       : Object.keys(MAP_VIEWS);
@@ -91,7 +98,7 @@ window.NeraMap = window.NeraMap || {};
       const cfg = MAP_VIEWS[key];
       const button = document.createElement("button");
       button.type = "button";
-      button.className = "view-btn";
+      button.className = "view-btn" + (key === activeViewKey ? " active" : "");
       button.dataset.view = key;
       button.textContent = cfg.label;
       button.title = cfg.description;
@@ -99,6 +106,10 @@ window.NeraMap = window.NeraMap || {};
         setMapView(key, map);
       });
       container.appendChild(button);
+    });
+
+    extraButtons.forEach(function (btn) {
+      container.appendChild(btn);
     });
   }
 
@@ -115,6 +126,12 @@ window.NeraMap = window.NeraMap || {};
     const map = createMap();
     buildViewSwitcher(map);
     setMapView(activeViewKey, map);
+
+    if (ns.I18n && typeof ns.I18n.subscribe === "function") {
+      ns.I18n.subscribe(function () {
+        buildViewSwitcher(map);
+      });
+    }
 
     // Expose for other modules
     ns.map = map;
@@ -133,5 +150,5 @@ window.NeraMap = window.NeraMap || {};
     return map;
   }
 
-  ns.MapInit = { init };
+  ns.MapInit = { init, buildViewSwitcher };
 })(window.NeraMap);

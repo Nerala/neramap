@@ -1,0 +1,45 @@
+{
+  "records": 253,
+  "matched": "253/253 (100%)",
+  "with_iso": "252/253 (100%)",
+  "with_speakers": "68/253 (27%)",
+  "with_vitality": "253/253 (100%)",
+  "with_wikipedia": "246/253 (97%)",
+  "with_wals": "65/253 (26%)",
+  "vitality": {
+    "stable": 152,
+    "endangered": 29,
+    "vulnerable": 51,
+    "extinct": 12,
+    "critical": 9
+  },
+  "families": {
+    "Afro-Asiatic": 54,
+    "Niger-Congo": 194,
+    "Indo-European": 2,
+    "Nilo-Saharan": 2,
+    "Speech Register": 1
+  },
+  "severity": {
+    "warn": 236,
+    "info": 145,
+    "error": 14
+  },
+  "issue_types": {
+    "speakers_missing": 185,
+    "dialects_rejoined": 56,
+    "coord_drift": 37,
+    "region_corrected": 31,
+    "override_applied": 27,
+    "encoding_or_whitespace_fixed": 25,
+    "coord_far": 14,
+    "outside_country": 8,
+    "speakers_outdated": 5,
+    "duplicate_glottocode": 4,
+    "low_confidence_match": 1,
+    "list_repaired": 1,
+    "family_mismatch": 1
+  },
+  "coverage_gaps": 65,
+  "generated": "2026-10-09T16:29:16"
+}
